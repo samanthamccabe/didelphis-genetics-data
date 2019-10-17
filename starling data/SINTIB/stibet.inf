@@ -1,0 +1,167 @@
+KIR = \data\sintib\kiret
+CHIN = \data\china\bigchina
+CHINNUM = \data\china\bigchina
+field_alias[CHIN] = \1:Chinese\2:ä®‚†©·™®©
+PROTO = \data\sinocauc\sccet.dbf
+stls = \data\sintib\lexstat\stlset.dbf
+AliasSet = 1
+field_alias[PROTO] = \1:Proto-Sino-Tibetan\2:è‡†·®≠Æ‚®°•‚·™®©
+field_alias[PRNUM] = \1:Sino-Caucasian etymology\2:ë®≠Æ™†¢™†ß·™†Ô Ì‚®¨Æ´Æ£®Ô
+field_alias[MEANING] = \1:Meaning\2:á≠†Á•≠®•
+field_alias[CHINNUM] = \1:Old Chinese etymology\2:Ñ‡•¢≠•™®‚†©·™†Ô Ì‚®¨Æ´Æ£®Ô
+field_alias[TIB] = \1:Tibetan\2:í®°•‚·™®©
+field_alias[BURM] = \1:Burmese\2:Å®‡¨†≠·™®©
+field_alias[KACH] = \1:Kachin\2:ä†Á®≠·™®©
+field_alias[LUSH] = \1:Lushai\2:ã„Ë•©
+field_alias[LEPCHA] = \1:Lepcha\2:ã•ØÁ†
+field_alias[KIR] = \1:Kiranti\2:ä®‡†≠‚®
+field_alias[KIRNUM] = \1:Kiranti etymology\2:ù‚®¨Æ´Æ£®Ô ™®‡†≠‚®
+field_alias[COMMENTS] = \1:Comments\2:äÆ¨¨•≠‚†‡®®
+lookup[1] = E:\DATA\SINTIB\kiret.dbf
+field_alias[NUMBER] = \1:Number\2:çÆ¨•‡
+field_list = PROTO-CHIN,TIB-KIR,COMMENTS
+DBINFO START 1
+    A comparative database of Sino-Tibetan languages, based on Peiros-Starostin 1996, but containing improved reconstructions. It includes  systematic data from seven best attested languages and language groups, and  additional evidence from many other Sino-Tibetan languages. The Lepcha data were input, and are continued to be input, by Olga Mazo.
+
+    Database structure.
+
+    1. Protoform. The Sino-Tibetan protoform (based mainly on Starostin 1989).
+    2. Meaning. A provisional reconstruction of the Proto-Sino-Tibetan meaning.
+    3. Chinese. The Old Chinese form, in S. Starostin's reconstruction.
+    4. Tibetan. The Classical Tibetan form.
+    5. Burmese. The Classical Burmese forms, with Proto-Lolo-Burmese forms where they are available.
+    6. Kachin. The Kachin (Jingpaw) form.
+    7. Lushei. The Lushei form, with Proto-Kuki-Chin forms (in Shafer's  reconstruction) when they are available.
+    8. Lepcha. The Lepcha form.
+    9. Kiranti. The Proto-Kiranti reconstruction done by S. Starostin, with a link to the Kiranti database.
+    8. Comments. Various etymological comments, plus references and evidence from other languages of the Sino-Tibetan family, drawn from works by P. Benedict, R. Shafer, J. Matissoff and others. The field also contains reconstructions of Proto-Gurung (by I. Peiros) which we hope to make available later as a  separate database.
+
+	Correspondences between Sino-Tibetan languages
+
+PST      OCh        Tib      Burm       Jp       Lush           Lepcha	  Kiranti
+*p  p       p ( / Xb)   p(h)     b (/ ph)  p     p, b, f    p, b
+  b                b      p(h)     b ( / ph)  p                
+*ph     ph       p ( / Xb)  p(h)   p ( / ph)  p         p, b, f       ph, bh
+  bh               b      p(h)     p ( / ph)  p                
+*b      p        p ( / Xb)  p(h)   b      ph          f       ph, bh
+  b                b      p(h)     b      ph                 
+*bh     p        p ( /Xb)  p(h)    ph     b           ?       ph, bh
+  b                b      p(h)     ph     b                  
+*m      m(h)     m (*mr > br)  (h)m  m      (h)m        m       m
+*w      p, b     b      w        w      v           v       p
+                                                             
+*t      t        t ( / Xd)  t(h)   d ( / th)  t         t, d, th       t, d
+  d                d      t(h)     d ( / th)  t                
+*th     th       t ( / Xd)  t(h)   t ( / th)  t         t       th, dh
+  dh               d      t(h)     t ( / th)  t                
+*d      t        t ( / Xd)  t(h)   th     ∂h ( < *th)  t, d, th       th, dh
+  d                d      t(h)     th     ∂h ( < *th)         
+*dh     th       t ( / Xd)  t(h)   d      d           t, d, th       th, dh
+  dh               d      t(h)     d      d                  
+*n      n(h)     n      n(h)     n      (h)n        n(j)       n
+*r      r(h)     r      r(h)     r      (h)r        r(j)       r
+*rj     r        rgj    r(h)     c      z / r       r(j)       r±
+*rj\L1\l    l        z±      r(h)     j      ﬁh / hr     j       r±
+                                                             
+*c      c        ˙      c±(h) (LB *c(h))    ˚ / ∂  th / ∂      ∂, ˚       c, ˙
+  ˙                c      c±(h) (LB *c(h))       ˚ / ∂  th / ∂             
+*ch     sh ( = ch)  s /c ( /X˙)  c±(h)  (LB *c(h))   c / s  th / s      ∂, ˚, c       ch, s
+  ˙h               z      ?        ?      ?                  
+*˙      s        s ( / Xz)  c±(h)  (LB *c(h))    z      ?           ˚       c, ˙
+  s                z      c±(h) (LB *c(h))       z      th                 
+*˙h     c        c      c±(h)  (LB *c(h))      ›      f           c       c, ˙
+  ˙                ?      c±(h)  (LB *c(h))      ›      f                  
+*s      s        s      s        s      th          s, c, (›)       s
+                                                             
+*c±      c±        c± ( / X˙±)  c±(h)  ˚ / ∂       th / ∂            ∂, ˚       c, ˙
+  ˙±                ˙±    c±(h)         ˚ / ∂       th / ∂                   
+*c±h     sh ( = ch)   (X˙±)  c±(h)         c       ∂            ?       ?
+  ˙±h               ˙±  c±(h)    c       ∂                 
+*˙±      c±        ?      c±(h)     s      ∂h          ˚       c, ˙
+  ˙±                ˙±      c±(h)     s      ∂h                 
+*˙±h     c±h       c±      c±(h)     › ( / ∂)  f          ∂       c, ˙
+  ˙±h               ?      c±(h)     › ( / ∂)  f                 
+*s±      s        s±      s        ›      s / th      ›, ∂(h), ˚       s, ?˙h
+*n±      —        n±      (h)n±, (h)n  n     (h)n        ?       n
+*j      l(h)     j      j        j      z           j       j
+                                                             
+*l      l(h)     l      (h)l     l      (h)l        l(j)       l
+*Ã (= *T-l-)  Ã(h), –(h)  lc± ( / l˙±), lt ( / ld)  (h)l  t / l  tl / (h)l  l(j)  l
+                                                             
+*k(˜)   k(˜)         k ( / Xg)       k(h)         k / kh       k            k, g, (kh)       k, g
+  g(˜)                 g       k(h)         k / kh       k                   
+*kh(˜)  kh(˜)    k ( / Xg)  k(h)   kh     k           k, kh       kh, gh
+  gh(˜)            g      k(h)     kh     k                  
+*g(˜)   k(˜)     g      k(h)     kh     kh          k       kh, gh
+  g(˜)             k      k(h)     kh     kh                 
+*gh(˜)  kh(˜)    k ( / Xg)  k(h)   kh     kh          k       kh, gh
+*x      x        k      ?        ?      k(h)        ?       ?
+*¡      ˝        k( /Xª0)  ˝        kh     h           ?       g
+*¡˜     ˝˜       k      ?        kh     v / 0       ?       ?
+*—(˜)   —(h)(˜)  —      —(h)     —      (h)—        —, (nj)       —
+                                                             
+*q      k        k ( / Xg)  ˝ ( / kh)  k    0           k(h), h       ˝, k(h)
+  g                k ( / Xg)  ˝ ( / kh)  k    0                  
+*q˜     k˜       k      w        w      v ( / 0)           h, x
+  w                k      w        w      v ( / 0)           
+*qh     kh       k      ˝ ( / kh)  kh     0           k(h), g       h, kh
+  gh               ?      ˝ ( / kh)  kh     0                  
+*qh˜    kh˜      k      w ( / kh)  g (?) / w  v ( / 0)         w
+  wh               k      w ( / kh)  g (?) / w  v ( / 0)         
+*G      k        k ( / Xg)  kh     kh     h           k, g       k(h)
+  g                g      kh       kh     h                  
+*G˜     k˜       k      ˝ ( / w)  w      h           k, f       w
+                                                             
+*Gh     kh       k      ˝        kh     h           ?       h
+                                                             
+*Gh˜    wh       k      ˝        kh     h                  ?
+*˘      x        h      h        kh     h           h       k(h)
+                                                             
+*˝      ˝        ˝ ( / Xk)  ˝      ˝      0           0       
+*˝˜     wh       ˝      w        w      v / 0       v / 0       
+                                                             
+*i      ij       i, e   i        i      i                  
+*e      e        i, e   i        i      i                  
+*ia     e        a, e   a(j) / i  ai     e, ai              
+*∆      Ù        o, a, u, e  aw, Ùw  au/u, o  u                  
+*Ù      Ù        a, o   a        a      a                  
+*iÙ     Ù        i, e   a(j) / i  ai     e, ai              
+*u      u        o / u  u / Ùw   au/u, o  u (/o)             
+*o      o        o / u  u / Ùw   u      u                  
+*a      a        a, o   a        a      a                  
+*iP     iP       iP     iP       aP     iP                 
+*ep     eP       iP, eP, (aP)  jaP  eP, iP, aP  eP, iaP, iP       
+*iÙP    ÙP       iP, eP, (aP)  jaP  eP, iP, aP  eP, iaP, iP       
+*ÙP     ÙP       aP     aP       aP     aP                 
+*aP     aP       aP     aP       aP     aP                 
+*∆P     ÙP       uP     uP       uP, oP  uP, oP             
+*∆aP    aP       uP, oP  uP       uP     uaP, uP            
+*uaP    ÙP       oP, uP, aP  uP, (w)aP  oP, uP  (u)aP, oP         
+*uP     ÙP (um > u—)  uP, oP  uP     uP, oP  uP                 
+*oP     aP (om > o—)  oP, uP, aP  uP, waP  oP  oP, uaP            
+*iT     iT       iT     aC±, iT   iT, eT, aT  iT, eT, (iaT)     
+*eT     eT       (j)aT, eT  aC±, iT  iT, eT, aT  iaT, aT, eT       
+*iÙT    ÙT       iT, eT  aC±, iT   iT, eT  iT, eT             
+*ÙT     ÙT       aT, oT, (e)  aT, (ij)  aT, (i)  aT, (i)         
+*aT     aT       aT, oT, eT  aT, (ij)  aT, eT  aT, (ej)          
+*∆T     ÙT       oT, eT uT, (wij) oT       oT, uT, ? iT                   
+*∆aT    aT       uT, oT  waT      aT     oT                 
+*uaT    oT, PÙT  uT, aT  waT      uT, oT  uaT                
+*uT     uT         uT, oT, (ji)       uT, waT, (wij, Ùw)         uT, oT, (i)       uT, oT                   
+*oT     oT         uT, oT       uT, waT, (wij)         oT, uT       uT, oT                   
+*iK      iT         iK       aC±         iK       iK (iT)    
+*eK      eK         iK       aC±         iK       iK, eK    
+*iaK     eK       (j)aK/eK   (j)aK   i—/a—/e—,aK  (i)a—/i—, ik    
+*∆K      ÙK      o—/a—,og/ug   auK/ÙuK      ’K/uK  ’—, uk    
+*ÙK      ÙK         aK       aK         aK       aK       
+*aK      aK         aK       aK         aK       a—/e—, ak/iak    
+*∆aK     aK        oK / aK   auK/ÙuK    ’K, u—   u—, ’k    
+*uK      uK        oK / uK  auK/ÙuK/waK        uK  uK      
+*oK      oK        oK / uK   auK/ÙuK    uK       uK       
+*uaK     oK        oK / uK   auK/ÙuK    ’K       ’K, ua—    
+
+ NB. 
+ 1. Consonant correspondences with Lepcha (provisional) were provided by O. Mazo.
+ 2. In the consonant system the main unknown factor is the one causing voice alternations in different subbranches - apparently a prefix (like *a-) which has itself been lost in the vast majority of cases.
+ 3. The vocalic correspondences so far are very tentative. Although the general system was probably like the one outlined above, much more work in individual subbranches of Sino-Tibetan is needed to make the correspondences more precise. In particular, all languages reveal very frequent variation between the reflexes of high (*i,  *u) and mid (*e, *o) vowels, so that many reconstructions are unsecure in this respect. The vocalic correspondences between Lepcha, Kiranti and the other languages so far were not yet dealt with.
+DBINFO END

@@ -1,0 +1,13 @@
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+proto = \data\cauc\khinet.dbf
+field_alias[WORD] = \1:Word\2:Слово
+field_alias[KHI] = \1:Khinalug\2:Хиналугский
+field_alias[KHINUM] = \1:Khinalug->Khinet\2:Хиналугский->Khinet
+DBINFO START 1
+    The Khinalug 100wordlist. Compiled by S. Starostin
+DBINFO END
+DBINFO START 2
+    Хиналугский 100словный список. Составлен С. Старостиным.
+DBINFO END
+field_list = NUMBER-KHINUM

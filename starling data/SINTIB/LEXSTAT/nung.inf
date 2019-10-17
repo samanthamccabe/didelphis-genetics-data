@@ -1,0 +1,5 @@
+proto = \data\sintib\stibet
+field_alias[ROU] = Rourou
+field_alias[NUS] = Nusu
+field_list = NUMBER-NUSNUM
+AliasSet = 1

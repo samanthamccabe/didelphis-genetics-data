@@ -1,0 +1,36 @@
+PROTO = kamet.dbf
+field_alias[RKS] = \1:Russian-Koryak dictionary (Zhukova) \2:Русско-корякский словарь под редакцией Жуковой
+AliasSet = 1
+DBINFO START 1
+ O. Mudrak's Chukchee-Koryak database, subordinate to the 
+Chukchee-Kamchatkan database. The glosses and comments here are 
+in Russian (no English translation is available yet), so you need a Cyrillic 
+font and some knowledge of Russian to utilize this database.
+
+    Database structure.
+
+    1. Protoform. The Chukchee-Koryak reconstruction.
+    2. Chukchee-Kamchatkan etymology. Reference to the Chukchee-Kamchatkan
+etymology.
+    3. Meaning. Enumeration of meanings in modern Chukchee-Koryak languages.
+    4-7. Languages: Chukchee, Koryak, Palan, Alutor.
+    8. Comments. Comments and references.
+DBINFO END
+field_alias[NUMBER] = Number
+field_alias[PROTO] = Proto-Chukchee-Koryak
+field_alias[PRNUM] = Chukchee-Kamchatkan etymology
+field_alias[MEANING] = Meaning (Rus.)
+field_alias[CHU] = Chukchee
+field_alias[KOR] = Koryak
+field_alias[PAL] = Palana
+field_alias[ALU] = Alutor
+field_alias[NIOD] = Nivkh parallels
+field_alias[NIODNUM] = Nivkh-Yukaghir etymology
+field_alias[EXT] = External parallels
+field_alias[COMMENTS] = Comments
+field_alias[IM] = Muravyeva reference
+field_alias[BOG] = Bogoraz reference (LRS)
+field_alias[NRS] = Korsakov reference (NRS)
+field_alias[YFA] = Language and Folklore of Alutors reference
+field_alias[PAK] = Zhukova reference (LPK)
+field_list = PROTO-MEANING,CHU-ALU,IM-NIOD,EXT

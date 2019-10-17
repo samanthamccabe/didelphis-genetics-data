@@ -1,0 +1,3 @@
+proto = \data\kamch\kamet.dbf
+field_list = NUMBER-SITNUM
+AliasSet = 1

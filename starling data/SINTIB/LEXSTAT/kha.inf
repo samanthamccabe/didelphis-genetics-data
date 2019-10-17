@@ -1,0 +1,3 @@
+proto = \data\sintib\stibet
+field_alias[KHA] = Kham
+field_list = NUMBER-KHANUM

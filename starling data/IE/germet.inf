@@ -1,0 +1,35 @@
+PROTO = piet.dbf
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+field_alias[PROTO] = \1:Proto-Germanic\2:Прагерманский
+field_alias[MEANING] = \1:Meaning\2:Значение
+field_alias[PRNUM] = IE etymology
+field_alias[GOT] = \1:Gothic\2:Готский
+field_alias[ONORD] = \1:Old Norse\2:Древнеисландский
+field_alias[NORW] = \1:Norwegian\2:Норвежский
+field_alias[OSWED] = \1:Old Swedish\2:Древнешведский
+field_alias[SWED] = \1:Swedish\2:Шведский
+field_alias[ODAN] = \1:Old Danish\2:Древнедатский
+field_alias[DAN] = \1:Danish\2:Датский
+field_alias[OENGL] = \1:Old English\2:Древнеанглийский
+field_alias[MENGL] = \1:Middle English\2:Среднеанглийский
+field_alias[ENGL] = \1:English\2:Английский
+field_alias[OFRIS] = \1:Old Frisian\2:Древнефризский
+field_alias[EASTFRIS] = \1:East Frisian\2:Восточнофризский
+field_alias[OSAX] = \1:Old Saxon\2:Древнесаксонский
+field_alias[MDUTCH] = \1:Middle Dutch\2:Среднеголландский
+field_alias[DUTCH] = \1:Dutch\2:Голландский
+field_alias[OLFRANK] = \1:Old Franconian\2:Древнефранкский
+field_alias[MLG] = \1:Middle Low German\2:Средне-нижненемецкий
+field_alias[LG] = \1:Low German\2:Нижненемецкий
+field_alias[OHG] = \1:Old High German\2:Древневерхненемецкий
+field_alias[MHG] = \1:Middle High German\2:Средне-верхненемецкий
+field_alias[HG] = \1:German\2:Немецкий
+field_alias[NOTES] = \1:Comments\2:Комментарии
+DBINFO START 1
+	The Common Germanic database, compiled by S. Nikolayev and subordinate to the Common Indo-European database.
+DBINFO END
+DBINFO START 2
+	Общегерманская база данных, составленная С. Николаевым и подчиненная общеиндоевропейской базе.
+DBINFO END
+field_list = PROTO-NOTES

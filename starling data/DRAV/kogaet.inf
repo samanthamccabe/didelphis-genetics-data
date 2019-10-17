@@ -1,0 +1,32 @@
+PROTO = dravet.dbf
+field_alias[PROTO] = \1:Proto-Kolami-Gadba \2:Праколами-гадаба
+AliasSet = 1
+field_alias[MEANING] = \1:Meaning \2:Значение
+field_alias[KOLAMI] = \1:Kolami \2:Колами
+field_alias[KOL_KIN] = \1:Kinwat Kolami \2:Кинватский диалект колами
+field_alias[KOL_SR] = \1:Kolami (Setumadhava Rao) \2:Колами (Сетумадхава Рао)
+field_alias[NAIKRI] = \1:Naikri \2:Найкри
+field_alias[NAIKI] = \1:Naiki \2:Найки
+field_alias[PARJI] = \1:Parji \2:Парджи
+field_alias[OLLARI] = \1:Ollari Gadba \2:Гадаба (диал. оллари)
+field_alias[SALUR] = \1:Salur Gadba \2:Гадаба (салурский диалект)
+field_alias[POYA] = \1:Poya Gadba \2:Гадаба (пойя)
+field_alias[S_3] = \1:Kondekor Gadba \2:Гадаба (кондекорский)
+field_alias[ADDITION] = \1:Additional forms \2:Дополнительные формы
+field_alias[NOTES] = \1:Notes \2:Комментарии
+field_alias[DEDNUM] = \1:Number in DED \2:Номер по DED
+field_list = PROTO-DEDNUM
+field_alias[PRNUM] = Dravidian etymology
+DBINFO START 1
+    The Kolami-Gadba database, subordinate to the Common Dravidian database.
+
+    Database structure.
+    1. Protoform. The Kolami-Gadba protoform.
+    2. Meaning. The reconstructed meaning.
+    3-12. Languages: Kolami, Kinwat Kolami, Kolami (according to Setumadhava),
+Naikri, Naiki, Parji, Ollari, Salur, Pottangi Gadba, Kondekor Gadba.
+    13. Derivatives.    
+    14. Notes
+    15. Number in DED.
+    16. Dravidian etymology. Link to the Common Dravidian database. 
+DBINFO END

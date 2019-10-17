@@ -1,0 +1,61 @@
+{
+  "destinationPath": "output",
+  "transformations": [
+    ["\\\\[iI]",""],
+    ["[–?~-+=]", ""],
+    ["\\d+", ""],
+    ["Ø", ""],
+    ["\\s+[()\\[\\]\\{\\}<>].*", ""],
+    ["[()\\[\\]\\{\\}<>]", ""],
+    ["[,.;/'*].*", ""],
+    ["\\s+", ""],
+
+    [ ":",     "ː"    ],
+
+    ["A", "a"],
+    ["R", "r"],
+    ["O", "o"],
+    ["S", "s"],
+    
+    ["ü", "y"],
+    ["ö", "ø"],
+    ["ä", "æ"],
+    ["ĳ", "ij"],
+    ["G", "ɢ"],
+    ["ꭓ", "χ"],
+
+    [ "š|š|š̌|š̌", "ʃ"  ],
+    [ "č|č|č̌|č̌", "tʃ" ],
+    [ "ž|ž|ž̌|ž̌", "ʒ"  ],
+    [ "ǯ|ǯ|ǯ̌|ǯ̌", "dʒ" ],
+
+    ["",""]
+  ],
+  "files": [
+    {
+      "type": "dsv",
+      "path": "starling exports/altaic/monget.dsv",
+      "displayNames":{
+        "WMO":     "Written Mongolian",
+        "MMO":     "Middle Mongolian",
+        "HAL":     "Khalkha",
+        "BUR":     "Buriat",
+        "KAL":     "Kalmyk",
+        "ORD":     "Ordos",
+        "DUN":     "Dongxian",
+        "BAO":     "Baoan",
+        "DAG":     "Dagur",
+        "YUY":     "Shary-Yoghur",
+        "MGR":     "Monguor",
+        "MOGH":    "Mogol"
+      },
+      "keys": [
+        ["MMO", "HAL"],
+        ["MMO", "BUR"],
+        ["MMO", "KAL"],
+        ["MMO", "ORD"],
+        ["MMO", "DUN"]
+      ]
+    }
+  ]
+}

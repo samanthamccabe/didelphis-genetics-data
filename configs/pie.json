@@ -1,0 +1,79 @@
+{
+  "destinationPath": "output/pie/",
+  "transformations": [
+    ["\\\\[iI]",""],
+    ["[–?~+=-]", ""],
+    ["\\d+", ""],
+    ["Ø", ""],
+    ["\\s+[()\\[\\]\\{\\}<>].*", ""],
+    ["[()\\[\\]\\{\\}<>]", ""],
+    ["[,.;/'*].*", ""],
+    ["\\s+", ""],
+
+    [ "aˊ",  "á" ],
+    [ "ǝˊ",  "ə́" ],
+    [ "ǝ",   "ə" ],
+    [ "eˊ",  "é" ],
+    [ "uˊ",  "ú" ],
+    [ "iˊ",  "í" ],
+    [ "oˊ",  "ó" ],
+    [ "ä",   "æ" ],
+
+    ["(ˊ[\u0300-\u036F]+)","$1ˊ"],
+    ["ˊ","ʲ"],
+
+    [ "ṗ|ṗ",   "pˀ"   ],
+    [ "č̣|č̣|č̣̌", "tʃˀ"  ],
+    [ "ṭ",     "tˀ"   ],
+    [ "ḳ|ḳ",   "kˀ"   ],
+    [ "q̇",     "qˀ"   ],
+    [ "ṣ",     "sˀ"   ],
+    [ "f̣",     "fˀ"   ],
+    [ ":",     "ː"    ],
+
+    [ "š|š|š̌|š̌", "ʃ"  ],
+    [ "č|č|č̌|č̌", "tʃ" ],
+    [ "ž|ž|ž̌|ž̌", "ʒ"  ],
+    [ "ǯ|ǯ|ǯ̌|ǯ̌", "dʒ" ],
+
+    [ "c̣ˊ̌",    "tʃˀʲ"],
+    [ "c̣",     "tsˀ" ],
+    [ "c",     "ts"  ],
+
+    [ "ƛ̣",     "tɬˀ" ],
+    [ "ƛ",     "tɬ"  ],
+    [ "λ",     "ɬ"   ],
+
+    ["",""]
+  ],
+  "files": [
+    {
+      "type": "dsv",
+      "path": "starling exports/indo-european/piet.dsv",
+      "displayNames":{
+        "HITT":  "Hittite",
+        "IND":   "Sanskrit",
+        "AVEST": "Avestan",
+        "IRAN":  "Persian",
+        "ARM":   "Armenian",
+        "GREEK": "Greek",
+        "SLAV":  "Slavic",
+        "BALT":  "Baltic",
+        "GERM":  "Germanic",
+        "LAT":   "Latin",
+        "ITAL":  "Italic",
+        "CELT":  "Celtic",
+        "ALB":   "Albanian",
+        "TOKH":  "Tokharian"
+      },
+      "keys": [
+        ["HITT",  "IND"],
+        ["AVEST", "IND"],
+        ["HITT",  "ARM"],
+        ["ARM",   "ALB"],
+        ["ALB",   "TOKH"],
+        ["TOKH",  "HITT"]
+      ]
+    }
+  ]
+}

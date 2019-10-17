@@ -1,0 +1,3 @@
+proto = \data\sintib\stibet
+field_alias[MOT] = Motuo-M
+field_list = NUMBER-MOTNUM

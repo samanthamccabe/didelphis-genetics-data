@@ -1,0 +1,43 @@
+PROTO = gndet.dbf
+field_alias[PROTO] = \1:Proto-Gondi \2:Прагонди
+AliasSet = 1
+field_alias[MEANING] = \1:Meaning \2:Значение
+field_alias[GONDI_TR] = \1:Betul Gondi \2:Бетульский
+field_alias[GONDI_W] = \1:Mandla Gondi (Williamson) \2:Мандла (Уильямсон)
+field_alias[GONDI_G] = \1:Gommu Gondi \2:Гомму
+field_alias[GONDI_MU] = \1:Muria Gondi \2:Мурия
+field_alias[GONDI_MA] = \1:Maria Gondi \2:Мария
+field_alias[GONDI_KO] = \1:Koya Gondi \2:Койя
+field_alias[GONDI_A] = \1:Adilabad Gondi \2:Адилабадский
+field_alias[GONDI_LU_S] = \1:Maria Gondi (Smith) \2:Мария (Смит)
+field_alias[ADDITION] = \1:Additional forms \2:Дополнительные формы
+field_alias[NOTES] = \1:Notes \2:Комментарии
+field_alias[DEDNUM] = \1:Number in DED \2:Номер по DED
+field_alias[VOC_NUM] = \1:Number in CVOTGD \2:Номер по CVOTGD
+field_alias[GONDI_L] = \1:Maria Gondi (Lind) \2:Мария (Линд)
+field_alias[GONDI_Y] = \1:Yeotmal Gondi \2:Еотмал
+field_alias[GONDI_M] = \1:Maria Gondi (Mitchell) \2:Мария (Митчелл)
+field_alias[GONDI_MND] = \1:Mandla Gondi \2:Мандла
+field_alias[GONDI_CH] = \1:Chindwara Gondi \2:Чхиндвара
+field_alias[GONDI_CHD] = \1:Chanda Gondi \2:Чанда
+field_alias[GONDI_D] = \1:Durg Gondi \2:Дург
+field_alias[GONDI_PH] = \1:Mandla Gondi (Phailbus) \2:Мандла (Файбус)
+field_alias[GONDI_S] = \1:Seoni Gondi \2:Сеони
+field_alias[PRNUM] = Gondwan etymology
+field_list = PROTO-VOC_NUM
+DBINFO START 1
+   The Gondi database, subordinate to the Gondwan database (which is in its
+turn subordinate to the Common Dravidian database).
+
+    Database structure.
+    1. Protoform. The Proto-Gondi reconstruction.
+    2. Meaning. The reconstructed Proto-Gondi meaning.
+    3-19. Languages and dialects: Betul-1, Mandla (Williamson), Betul-2,
+Gommu, Muria, Maria, Sironcha, Koya, Yeotmal, Maria (Mitchell), Maria (Lind),
+Maria (Lucie Smith), Mandla, Chhindwara, Adilabad, Dorli, Chanda
+    20. Derivatives.
+    21. Notes.
+    22. Number in DED.
+    23. Number in Gondi dictionary.
+    24. Gondwan protoform. A link to the upper level Proto-Gondwan database. 
+DBINFO END

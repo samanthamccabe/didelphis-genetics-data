@@ -1,0 +1,66 @@
+AliasSet = 1
+charref = \data\china\bigchina
+
+DBINFO START 2
+   Это - база данных \BDOC\b, любезно предоставленная Уильямом Ваном и Цинь-Чуань Чэном. Она разрабатывалась в Беркли и в Гонконгском Городском Университете с конца 60-х годов, на основе \IХаньюй Фанъинь Цзыхуй\i, а в настоящее время доступна также в текстовом формате по адресу http://www.lang.cityu.edu.hk/chinese.  Чтобы приспособить ее к моей странице, мне пришлось изменить формат и кодировку: вместо МФА я использую транскрипцию, принятую в прочих базах данных. Я надеюсь, что она легко читаема и что я не утратил в процессе конвертации никакой  информации. Однако я сохранил нотацию тонов, так что следует помнить, что тоны в DOC и в древнекитайской базе данных маркируются по-разному.
+
+    Структура базы данных.
+
+    1. Иероглиф. Китайские иероглифы в кодировке Big5.
+    2. Древнекитайский. Отсылка к моей древнекитайской базе данных.
+    3. СК характеристика. Включает традиционную информацию о среднекитайском чтении, а именно: шэ, коу, дэн, тон, рифма и инициаль.
+    4-21. Диалекты: Пекин, Цзинань, Сиань, Тайюань, Ханькоу, Чэнду, Янчжоу, Сучжоу, Чанша, Шуанфэн, Наньчан, Мэйсянь, Гуанчжоу, Сямэнь, Чаочжоу, Фучжоу, Шанхай.
+    22. Фонетическая интерпретация Чжунъюань иньюнь.
+
+ 
+DBINFO END
+DBINFO START 1
+ This is the \BDOC\b database kindly provided by William Wang and Chin-Chuan Cheng. The database was developed at Berkeley and the City University of Hong Kong since the late sixties, on the basis of the \IHanyu Fangyin Zihui\i, and is now also available in text format at http://www.lang.cityu.edu.hk/chinese. To adjust it to my page I had to modify the database format and change the encoding: instead of IPA I use the transcription common for other databases. I hope it will be easily readable and I made sure that no information was lost. I preserved, however, the notation of tones, so the reader should be aware that Beijing tones are marked differently in the Old Chinese database and in DOC. 
+    Database structure.     
+    1. Character. Chinese characters in Big5 encoding.
+    2. Old Chinese. A link to my Old Chinese database.
+    3. MC description. Includes traditional information on the Middle Chinese reading including: she, kou, deng, tone, rhyme and initial.
+    4-21. Dialects: Beijing, Jinan, Xi'an, Taiyuan, Hankou, Chengdu, Yangzhou, Suzhou, Wenzhou, Changsha, Shuangfeng, Nanchang, Meixian, Guangzhou, Xiamen, Chaozhou, Fuzhou, Shanghai.
+    22. A phonetic interpretation of Zhongyuan yinyun. 
+DBINFO END
+field_alias[NUMBER] = \1:Number\2:Номер
+field_alias[CHARREF] = \1:Chinese etymology\2:Китайская этимология
+field_alias[CHARACTER] = \1:Character\2:Иероглиф
+field_alias[MCINFO] = \1:MC description \2:СК характеристик 
+field_alias[BEIJING] = \1:Beijing\2:Пекин
+field_alias[JINAN] = \1:Jinan\2:Цзинань
+field_alias[XIAN] = \1:Xi'an\2:Сиань
+field_alias[TAIYUAN] = \1:Taiyuan\2:Тайюань
+field_alias[HANKOU] = \1:Hankou\2:Ханькоу
+field_alias[CHENGDU] = \1:Chengdu\2:Чэнду
+field_alias[YANGZHOU] = \1:Yangzhou\2:Янчжоу
+field_alias[SUZHOU] = \1:Suzhou\2:Сучжоу
+field_alias[WENZHOU] = \1:Wenzhou\2:Вэньчжоу
+field_alias[CHANGSHA] = \1:Changsha\2:Чанша
+field_alias[SHUANGFENG] = \1:Shuangfeng\2:Шуанфэн
+field_alias[NANCHANG] = \1:Nanchang\2:Наньчан
+field_alias[MEIXIAN] = \1:Meixian\2:Мэйсянь
+field_alias[GUANGZHOU] = \1:Guangzhou\2:Гуанчжоу
+field_alias[XIAMEN] = \1:Xiamen\2:Сямэнь
+field_alias[CHAOZHOU] = \1:Chaozhou\2:Чаочжоу
+field_alias[FUZHOU] = \1:Fuzhou\2:Фучжоу
+field_alias[SHANGHAI] = \1:Shanghai\2:Шанхай
+field_alias[ZHONGYUAN] = \1:Zhongyuan yinyun\2:Чжунъюань иньюнь  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

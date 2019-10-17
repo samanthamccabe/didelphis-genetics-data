@@ -1,0 +1,3 @@
+proto = \data\sintib\stibet
+field_alias[LEP] = Lepcha
+field_list = NUMBER-LEPNUM

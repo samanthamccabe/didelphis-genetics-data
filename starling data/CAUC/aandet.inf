@@ -1,0 +1,47 @@
+PROTO = caucet.dbf
+AliasSet = 1
+field_alias[PROTO] = \1:Protoform\2:Праформа
+field_alias[NUMBER] = \1:Number\2:Номер
+field_alias[PRNUM] = \1:North Caucasian etymology\2:СК этимология
+field_alias[MEANING] = \1:Meaning\2:Значение
+field_alias[AVA] = \1:Avar\2:Аварский
+field_alias[AVC] = \1:Chadakolob\2:Чадаколоб
+field_alias[AND] = \1:Andian language\2:Андийский
+field_alias[AKV] = \1:Akhvakh\2:Ахвахский
+field_alias[CHM] = \1:Chamalal\2:Чамалинский
+field_alias[TND] = \1:Tindi\2:Тиндинский
+field_alias[KRT] = \1:Karata\2:Каратинский
+field_alias[BTL] = \1:Botlikh\2:Ботлихский
+field_alias[BGV] = \1:Bagvalal\2:Багвалинский
+field_alias[GDB] = \1:Godoberi\2:Годоберинский
+field_alias[COMMENT] = \1:Comments\2:Комментарии
+DBINFO START 2
+     Это - авароандийская часть севернокавказского сравнительного словаря. 
+
+    Структура базы данных
+    1. Праформа. Реально авароандийских праформ здесь нет. Поле обычно содержит  праандийскую форму (в несколько модифицированной реконструкции Гудавы), из которой обычно выводится аварская форма. В некоторых случаях, когда налицо только аварская форма без андийских параллелей, праформа в базе данных представляет собой чистый конструкт (некоторое представление о том, как выглядела бы андийская праформа, если бы имелись андийские рефлексы). Поле одновременно представляет собой отсылку к аваро-андийской базе данных.
+    2. Значение. Как в большинстве баз данных нижнего уровня, значение, приведенное здесь, не является результатом семантической реконструкции, а скорее представляет собой перечисление значений, засвидетельствованных в языках-потомках.
+    3-11. Языки: аварский, андийский, ахвахский, чамалинский, тиндинский, каратинский, ботлихский, багвалинский, годоберинский.
+    12. Комментарии (по большей части содержащие дополнительные диалектные  данные).
+    13. СК этимология. Отсылка к вышестоящей северно(восточно)кавказской базе.
+
+
+
+
+
+
+ 
+ 
+DBINFO END
+DBINFO START 1
+  This is the Avaro-Andian part of the North Caucasian comparative dictionary. 
+
+    Database structure.
+    1. Protoform. There are in fact no Avaroandian protoforms available. The field normally contains the Proto-Andian forms (in somewhat modified Gudava's  reconstructions), from which the Avar forms are usually deducible. In some cases -  when we only have an Avar form, without Andian matches - the protoform presented is a mere construct (an idea of what the Andian protoform would look like if there were actual Andian reflexes). 
+    2. Meaning. As in most lowlevel (subgroup) databases the meaning presented here is not an attempt of semantic reconstruction, but rather an enumeration of the actually attested meanings in daughter languages.
+    3-11.  Languages: Avar, Andi, Akhvakh, Chamalal, Tindi, Karata, Botlikh, Bagvalal, Godoberi.
+    12. Comments (for the most part containing additional dialectal data). 
+    13. NC etymology. A link to the upper level North (East) Caucasian database. 
+DBINFO END
+field_alias[UMBER] = \1:Number\2:Номер
+field_list = PROTO-COMMENT

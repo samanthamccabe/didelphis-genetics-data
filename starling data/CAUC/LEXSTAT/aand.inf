@@ -1,0 +1,22 @@
+AliasSet = 1
+proto = \data\cauc\aandet.dbf
+field_alias[AVA] = \1:Avar\2:Аварский
+field_alias[AVANUM] = \1:Avar->Aandet\2:Аварский->Aandet
+field_alias[NUMBER] = \1:Number\2:Номер
+field_alias[WORD] = \1:Word\2:Слово
+field_alias[AVCNUM] = \1:Chadakolob->Aandet\2:Чадаколоб->Aandet
+field_alias[AND] = \1:Andi language\2:Андийский язык
+field_alias[ANDNUM] = \1:Andi->Aandet\2:Андийский->Aandet
+field_alias[AKV] = \1:Akhvakh\2:Ахвахский
+field_alias[AKVNUM] = \1:Akhvakh->Aandet\2:Ахвахский->Aandet
+field_alias[CHM] = \1:Chamalal\2:Чамалинский
+field_alias[CHMNUM] = \1:Chamalal->Aandet\2:Чамалинский->Aandet
+field_alias[TND] = \1:Tindi\2:Тиндинский
+field_alias[TNDNUM] = \1:Tindi->Aandet\2:Тиндинский->Aandet
+DBINFO START 2
+Аваро-андийский 100-словный список. Составлен С. Старостиным.
+DBINFO END
+DBINFO START 1
+The Avaro-Andian 100 wordlist. Compiled by S. Starostin.
+DBINFO END
+field_list = NUMBER-TNDNUM

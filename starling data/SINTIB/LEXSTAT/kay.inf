@@ -1,0 +1,16 @@
+proto = \data\sintib\stibet
+field_alias[GUR] = Gurung
+field_alias[TAM] = Tamang
+field_alias[THA] = Thakali
+field_alias[MAG] = Magari
+field_alias[KHA] = Kham
+field_alias[KAI] = Kaike
+field_alias[JIR] = Jirel
+field_alias[SHE] = Sherpa
+field_alias[SUN] = Sunwar
+field_alias[KLN] = Khaling
+field_alias[NEW] = Newari
+field_alias[CHE] = Chepang
+field_alias[LEP] = Lepcha
+field_alias[KAY] = Kaike
+field_list = NUMBER-KAYNUM

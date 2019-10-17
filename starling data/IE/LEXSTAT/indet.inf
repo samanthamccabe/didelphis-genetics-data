@@ -1,0 +1,2 @@
+PROTO = \data\ie\piet.dbf
+field_list = NUMBER-WPH

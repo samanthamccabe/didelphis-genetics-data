@@ -1,0 +1,17 @@
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+proto = \data\cauc\nakhet.dbf
+field_alias[WORD] = \1:Word\2:Слово
+field_alias[CHE] = \1:Chechen\2:Чеченский
+field_alias[CHENUM] = \1:Chechen->Nakhet\2:Чеченский->Nakhet
+field_alias[ING] = \1:Ingush\2:Ингушский
+field_alias[INGNUM] = \1:Ingush->Nakhet\2:Ингушский->Nakhet
+field_alias[BCB] = \1:Batsbi\2:Бацбийский
+field_alias[BCBNUM] = \1:Batsbi->Nakhet\2:Бацбийский->Nakhet
+DBINFO START 1
+    The Nakh 100wordlist. Compiled by S. Starostin.
+DBINFO END
+DBINFO START 2
+	Нахский 100словный список. Составлен С. Старостиным.
+DBINFO END
+field_list = NUMBER-BCBNUM

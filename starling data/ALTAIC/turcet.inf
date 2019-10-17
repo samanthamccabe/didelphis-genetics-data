@@ -1,0 +1,65 @@
+PROTO = \data\alt\altet.dbf
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+field_alias[PROTO] = \1:Proto-Turkic\2:Пратюркский
+field_alias[PRNUM] = Altaic etymology
+field_alias[MEANING] = \1:Meaning\2:Англ. значение
+field_alias[RUSMEAN] = \1:Russian meaning\2:Значение
+field_alias[ATU] = \1:Old Turkic\2:Древнетюркский
+field_alias[KRH] = \1:Karakhanid\2:Караханидский
+field_alias[TRK] = \1:Turkish\2:Турецкий
+field_alias[TAT] = \1:Tatar\2:Татарский
+field_alias[CHG] = \1:Middle Turkic\2:Среднетюркский
+field_alias[UZB] = \1:Uzbek\2:Узбекский
+field_alias[UIG] = \1:Uighur\2:Уйгурский
+field_alias[SJG] = \1:Sary-Yughur\2:Сарыюгурский
+field_alias[AZB] = \1:Azerbaidzhan\2:Азербайджанский
+field_alias[TRM] = \1:Turkmen\2:Туркменский
+field_alias[HAK] = \1:Khakassian\2:Хакасский
+field_alias[SHR] = \1:Shor\2:Шорский
+field_alias[ALT] = \1:Oyrat\2:Ойратский
+field_alias[KHAL] = \1:Halaj\2:Халаджский
+field_alias[CHV] = \1:Chuvash\2:Чувашский
+field_alias[JAK] = \1:Yakut\2:Якутский
+field_alias[DOLG] = \1:Dolgan\2:Долганский
+field_alias[TUV] = \1:Tuva\2:Тувинский
+field_alias[TOF] = \1:Tofalar\2:Тофаларский
+field_alias[KRG] = \1:Kirghiz\2:Киргизский
+field_alias[KAZ] = \1:Kazakh\2:Казахский
+field_alias[NOGX] = \1:Noghai\2:Ногайский
+field_alias[BAS] = \1:Bashkir\2:Башкирский
+field_alias[BLKX] = \1:Balkar\2:Балкарский
+field_alias[GAGX] = \1:Gagauz\2:Гагаузский
+field_alias[KRMX] = \1:Karaim\2:Караимский
+field_alias[KLPX] = \1:Karakalpak\2:Каракалпакский
+field_alias[SAL] = \1:Salar\2:Саларский
+field_alias[QUM] = \1:Kumyk\2:Кумыкский
+field_alias[REFERENCE] = \1:Comments\2:Комментарии
+field_list = PROTO-REFERENCE
+DBINFO START 1
+  This is the Turkic part of the Altaic Etymological Dictionary.
+
+    Database structure.
+
+    1. Protoform. The Proto-Turkic form is given with O. Mudrak's modifications, notably, with an introduction of the *ia-diphthong, as well as open and close mid-vowels.
+    2. Altaic etymology. A link to the upper level (Common Altaic) database.
+    3. Meaning. As in most lowlevel (subgroup) databases the meaning presented here is not an attempt of semantic reconstruction, but rather an enumeration of the actually attested meanings in daughter languages.
+    4-30. Languages: Old Turkic (Orkhon and Old Uighur), Old Turkic (Karakhanid), Middle Turkic (Chagatai), Turkish, Azeri, Gagauz, Turkmen, Khaladzh, Salar,  Sary-Yughur, Tatar, Kirghiz, Kazakh, Nogai, Balkar, Kumyk, Karakalpak, Uzbek, Uigur, Bashkir, Khakassian, Tuva-Tofalar, Altai, Shor, Chuvash, Yakut, Dolgan. Not all the languages are equally well represented, but the database is being  constantly supplemented. 
+    31. Comments. References and etymological comments. 
+
+ 
+DBINFO END
+DBINFO START 2
+   Это - тюркская часть алтайского этимологического словаря.
+
+    Структура базы данных
+
+    1. Праформа. Пратюркская форма приводится с модификациями О. Мудрака; в частности, вводится дифтонг *ia, а также открытые и закрытые гласные среднего подъема.
+    2. Алтайская этимология. Отсылка к общеалтайской базе данных.
+    3. Значение. Как в большинстве баз данных нижнего уровня, значение, приведенное здесь, не является результатом семантической реконструкции, а скорее представляет собой перечисление значений, засвидетельствованных в языках-потомках.
+    4-30. Языки: древнетюркский (рунический и древне-уйгурский), древнетюркский караханидский, среднетюркский (чагатайский), турецкий, азербайджанский,  гагаузский, туркменский, халаджский, саларский, сарыюгурский, татарский,  киргизский, казахский, ногайский, балкарский, кумыкский, каракалпакский, узбекский, башкирский, хакасский, тувинско-тофаларский, алтайский, шорский, чувашский, якутский, долганский. Не для всех языков материал приведен  полностью, но база данных постоянно пополняется.
+    31. Комментарии. Ссылки и этимологические замечания. 
+
+ 
+DBINFO END
+lookup[0] = C:\star\prg\star32\sense.dbf

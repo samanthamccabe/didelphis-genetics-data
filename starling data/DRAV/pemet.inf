@@ -1,0 +1,24 @@
+PROTO = gndet.dbf
+field_alias[PROTO] = \1:Proto-Pengo-Manda \2:Прапенго-манда
+AliasSet = 1
+field_alias[MEANING] = \1:Meaning \2:Значение
+field_alias[PENGO] = \1:Pengo \2:Пенго
+field_alias[MANDA] = \1:Manda \2:Манда
+field_alias[ADDITION] = \1:Additional Forms \2:Дополнительные формы
+field_alias[NOTES] = \1:Notes \2:Комментарии
+field_alias[DEDNUM] = \1:Number in DED \2:Номер по DED
+field_alias[PRNUM] = Gondwan etymology
+field_list = PROTO-DEDNUM
+DBINFO START 1
+ The Pengo-Manda database, subordinate to the Gondwan database (which is in
+its turn subordinate to the Common Dravidian database).
+
+    Database structure.
+    1. Protoform. The Proto-Pengo-Manda reconstruction.
+    2. Meaning. The reconstructed Proto-Pengo-Manda meaning.
+    3-4. Languages: Pengo, Manda.
+    5. Derivatives.
+    6. Notes.
+    7. Number in DED.
+    8. Gondwan protoform. A link to the upper level Proto-Gondwan database.
+DBINFO END

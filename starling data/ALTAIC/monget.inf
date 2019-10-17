@@ -1,0 +1,47 @@
+PROTO = altet.dbf
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+field_alias[PROTO] = \1:Proto-Mongolian\2:Прамонгольский
+field_alias[PRNUM] = \1:Altaic etymology\2:Алтайская этимология
+field_alias[MEANING] = \1:Meaning\2:Англ. значение
+field_alias[RUSMEAN] = \1:Russian meaning\2:Значение
+field_alias[WMO] = \1:Written Mongolian\2:Письменный монгольский
+field_alias[MMO] = \1:Middle Mongolian\2:Среднемонгольский
+field_alias[HAL] = \1:Khalkha\2:Халха
+field_alias[BUR] = \1:Buriat\2:Бурятский
+field_alias[KAL] = \1:Kalmuck\2:Калмыцкий
+field_alias[ORD] = \1:Ordos\2:Ордосский
+field_alias[DUN] = \1:Dongxian\2:Дунсянский
+field_alias[BAO] = \1:Baoan\2:Баоаньский
+field_alias[DAG] = \1:Dagur\2:Дагурский
+field_alias[YUY] = \1:Shary-Yoghur\2:Шарыюгурский
+field_alias[MGR] = \1:Monguor\2:Монгорский
+field_alias[MOGH] = \1:Mogol\2:Могольский
+field_alias[REFERENCE] = \1:Comments\2:Комментарии
+DBINFO START 1
+  The Mongolian part of the Altaic Etymological Dictionary.
+
+    Database structure.
+
+    1. Protoform. The Proto-Mongolian form, in most cases coinciding with the attested Middle Mongolian form (but with some different orthographic conventions).
+    2. Altaic etymology. A link to the upper level (Common Altaic) database.
+    3. Meaning. Enumeration of meanings attested in Old and modern Mongolian sources.
+    4. Written Mongolian. The classical (orthographical) Mongolian form.
+    5. Middle Mongolian. The Middle ( = Old) Mongolian form, attested in Middle Mongolian sources (Secret History etc.).
+    6-14. Modern forms: Khalkha, Kalmuck, Buriat, Ordos, Dongxian, Baoan, Shary-Yoghur, Monguor, Dagur. 
+    15. Comments. References and etymological notes.
+DBINFO END
+DBINFO START 2
+ Монгольская часть алтайского этимологического словаря.
+
+    Структура базы данных.
+
+    1. Праформа. Прамонгольская форма, в большинстве случаев совпадающая с засвидетельствованной среднемонгольской формой (но в несколько модифицированной орфографии).
+    2. Алтайская этимология. Отсылка к общеалтайской базе данных.
+    3. Значение. Перечисление значений, засвидетельствованных в старомонгольских и современных источниках.
+    4. Письменный монгольский. Классическая (орфографическая) монгольская форма.
+    5. Среднемонгольский. Среднемонгольская ( = древнемонгольская) форма, засвидетельствованная в среднемонгольских источниках ("Сокровенное сказание" и др.).
+    6-14. Современные формы: халха, бурятский, калмыцкий, ордосский, дунсяньский, баоаньский, шарыюгурский, монгорский, дагурский. 
+    15. Комментарии. Этимологические и другие примечания. 
+DBINFO END
+field_list = PROTO-REFERENCE

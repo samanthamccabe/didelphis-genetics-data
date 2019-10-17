@@ -1,0 +1,37 @@
+field_alias[PUM] = \1:Pumpokol\2:Пумпокольский
+field_alias[NUMBER] = \1:Number\2:Номер
+field_alias[PRNUM] = \1:Sino-Caucasian etymology\2:Синокавказская этимология
+field_alias[KOT] = \1:Kottish\2:Коттский
+field_alias[NOTES] = \1:Comments\2:Примечания
+field_alias[MEANING] = \1:Meaning\2:Значение
+field_alias[SYM] = \1:Yug\2:Югский
+field_alias[ARI] = \1:Arin\2:Аринский
+field_alias[KET] = \1:Ket\2:Кетский
+field_alias[PROTO] = \1:Proto-Yenisseian\2:Праенисейский
+PROTO = \data\sinocauc\sccet.dbf
+AliasSet = 1
+DBINFO START 1
+ Comparative vocabulary of the Yenisseian languages, published as Starostin 1995. The glosses and comments here are in Russian (no English translation is available yet), so you need a Cyrillic font and some knowledge of Russian to utilize this database.
+
+    Database structure.
+
+    1. Protoform. The Proto-Yenisseian reconstruction by S. Starostin.
+    2. Meaning. The meaning of the Proto-Yenisseian form.
+    3-7. Languages: Ket, Sym (treated here as a separate language rather than just a Ket dialect), Kottish, Arin, Pumpokol.
+    8. Comments. Etymological, phonological and other notes.
+    9. External parallels. Probable external parallels (from North Caucasian and Sino-Tibetan languages), where available.
+
+ 
+DBINFO END
+DBINFO START 2
+   Сравнительный словарь енисейских языков, опубликованный в качестве Старостин 1995. 
+
+    Структура базы данных
+
+    1. Праформа. Праенисейская реконструкция С. Старостина.
+    2. Значение. Значение праенисейской формы.
+    3-7. Языки: кетский, сымский ( = югский, рассматриваемый здесь как  отдельный язык, а не всего лишь диалект кетского), коттский, аринский, пумпокольский.
+    8. Комментарии. Этимологические, фонетические и прочие примечания.
+    9. Внешние параллели. Вероятные внешние параллели (из севернокавказских и синотибетских языков). 
+DBINFO END
+field_list = PROTO-NOTES

@@ -1,0 +1,47 @@
+field_alias[AJP] = \1:Old Japanese\2:Древнеяпонский
+field_alias[MJP] = \1:Middle Japanese\2:Среднеяпонский
+field_alias[TOK] = \1:Tokyo\2:Токио
+field_alias[KYO] = \1:Kyoto\2:Кето
+field_alias[KAG] = \1:Kagoshima\2:Кагосима
+field_alias[NAS] = \1:Nase\2:Насэ
+field_alias[SHU] = \1:Shuri\2:Сюри
+field_alias[HAT] = \1:Hateruma\2:Хатэрума
+field_alias[YON] = \1:Yonakuni\2:Йонакуни
+field_alias[COMMENTS] = \1:Comments\2:Комментарии
+PROTO = altet.dbf
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+field_alias[PROTO] = \1:Proto-Japanese\2:Праяпонский
+field_alias[PRNUM] = Altaic etymology
+field_alias[MEANING] = \1:Meaning\2:Англ. значение
+field_alias[RUSMEAN] = \1:Russian meaning\2:Русское значение
+DBINFO START 1
+    This is the Japanese part of the Altaic Etymological Dictionary.
+
+    Database structure.
+
+    1. Protoform. The Proto-Japanese reconstruction (based on Starostin 1975, and very similar to the one found, e. g., in Martin 1987).
+    2. Altaic etymology. A link to the upper level (Common Altaic) database.
+    3. Meaning. List of meanings found in Old Japanese and modern Japanese sources.
+    4. Old Japanese. The Old Japanese (8th c.) form. The forms are normally accented, but one should keep in mind that the accentuation comes from a later source (Ruiju Myogisho, 11th c.), so the notation is to some extent artificial.
+    5. Modern dialects: literary (Tokyo), Kyoto, Kagoshima. The dialects are given in a normalized transcription with accents according to the dictionary of Hirayama Teruo. Together with RJ they serve as a basis for the accent  reconstruction of Proto-Japanese. 
+    6. Comments. References and comments (for the most part, accentological). 
+
+ 
+DBINFO END
+DBINFO START 2
+    Это - японская часть алтайского этимологического словаря.
+
+    Структура базы данных
+
+    1. Праформа. Праяпонская реконструкция, основанная на работе Старостин 1975 (и очень сходная с принятой, например, в Мартин 1987).
+    2. Алтайская этимология. Отсылка к общеалтайской базе данных.
+    3. Значение. Список значений в древнеяпонском и современном японском языках.
+    4. Древнеяпонский. Древнеяпонская форма (8 в.). Формы обычно акцентуированы, но следует помнить, что акцентуация взята из более позднего источника (Руйдзю Ме"гисе", 11 в.), так что нотация в некоторой степени искусственна.
+    5. Современные диалекты: литературный (Токио), Киото и Кагосима. Данные диалектов приводятся в основном в нормализованной транскрипции с ударениями по словарю Хираяма Тэруо и служат (вместе со словарем RJ) основой для праяпонской  акцентной реконструкции.
+    6. Комментарии. Отсылки и комментарии (по большей части акцентологические).
+
+
+ 
+DBINFO END
+field_list = PROTO-COMMENTS

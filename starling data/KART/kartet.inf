@@ -1,0 +1,31 @@
+PROTO = \data\nostr\nostret.dbf
+field_list = PROTO-NOTES
+DBINFO START 1
+	This database contains 1310 entries and was compiled by S. Starostin on the basis of G. Klimov's and Faehnrich-Sardhveladze's etymological dictionaries of Kartvelian languages. It contains the following fields:
+	a) Proto-Kartvelian (PROTO), linked to the Eurasiatic database, \Bnostret.dbf\b. The reconstruction is given according to G. Klimov; if it ia absent in Klimov's dictionary, Faehnrich-Sardzhveladze reconstruction is presented. No attempt was done to modify the existing Kartvelian protoforms.
+	b) Georgian (GRU)
+	c) Megrelian (MEG)
+	d) Svan (SVA)
+	e) Laz (LAZ)
+	f) Comments and references.
+
+DBINFO END
+field_alias[NUMBER] = Number
+AliasSet = 1
+field_alias[PROTO] = Proto-Kartvelian
+field_alias[PRNUM] = Nostratic etymology
+field_alias[RUSMEAN] = Russian meaning
+field_alias[MEANING] = English meaning
+field_alias[GRU] = Georgian
+field_alias[GRMEAN] = Georgian meaning (Rus.)
+field_alias[EGRMEAN] = Georgian meaning (Engl.)
+field_alias[MEG] = Megrel
+field_alias[MGMEAN] = Megrel meaning (Rus.)
+field_alias[EMGMEAN] = Megrel meaning (Eng.)
+field_alias[SVA] = Svan
+field_alias[SVMEAN] = Svan meaning (Rus.)
+field_alias[ESVMEAN] = Svan meaning (Eng.)
+field_alias[LAZ] = Laz
+field_alias[LZMEAN] = Laz meaning (Rus.)
+field_alias[ELZMEAN] = Laz meaning (Eng.)
+field_alias[NOTES] = Notes and references

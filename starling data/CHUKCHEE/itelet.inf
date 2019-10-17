@@ -1,0 +1,45 @@
+PROTO = kamet.dbf
+field_alias[NUMBER] = Number
+AliasSet = 1
+field_alias[PROTO] = Proto-Itelmen
+field_alias[PRNUM] = Chukchee-Kamchatkan etymology
+field_alias[MEANING] = Meaning (Rus.)
+field_alias[NIOD] = Nivkh parallels
+field_alias[NIODNUM] = Nivkh-Yukaghir etymology
+field_alias[COMMENTS] = Comments
+field_alias[EXT] = External parallels
+field_alias[WIT] = Western Kamchadal
+field_alias[WITMEA] = West Kamchadal meaning
+field_alias[WITMEP] = West Kamchadal meaning (Polish)
+field_alias[SIT] = Southern Kamchadal
+field_alias[SITMEA] = South Kamchadal meaning (Latin)
+field_alias[SITMEP] = South Kamchadal meaning (Polish)
+DBINFO START 1
+ O. Mudrak's Itelmen database, subordinate to the Chukchee-Kamchatkan
+database. The glosses and comments here are in Russian (no English 
+translation is available yet), so you need a Cyrillic 
+font and some knowledge of Russian to utilize this database. 
+
+    Database structure.
+    1. Protoform. The Proto-Itelmen reconstruction.
+    2. Chukchee-Kamchatkan etymology. A link to the upper level 
+Chukchee-Kamchatkan database.
+    3. Sedank dialect. Reflex in the Sedank dialect of Itelmen.
+    4. Sedank meaning. Its meaning (in Russian).
+    5. West Itelmen. The West Itelmen form, according to Dybovski.
+    6. W. Itelm. meaning. Its meaning (in Latin).
+    7. South Itelmen. The South Itelmen form, according to Dybovski.
+    8. S. Itelmen meaning. Its meaning (in Latin).
+    9. Comments. Comments and references.
+DBINFO END
+field_alias[ITE] = Itelmen (Napana)
+field_alias[ITEMEA] = Itelmen meaning
+field_alias[VOL] = Volodin 1976 (IL)
+field_alias[WDYB] = Number in Dybowsky (WK)
+field_alias[SDYB] = Number in Dybowsky (SK)
+field_alias[VZHU] = Volodin-Zhukova reference
+field_alias[STEB] = Stebnitski reference
+field_alias[ITRUSL] = Itelmen (Kovran)
+field_alias[STBIT] = Itelmen (Stebnitski)
+field_alias[IRSLOV] = Khaloymova (IRS)
+field_list = PROTO-MEANING,ITE-NIOD,EXT

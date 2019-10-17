@@ -1,0 +1,11 @@
+PROTO = \data\alt\altet.dbf
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+field_alias[PROTO] = \1:Proto-Korean\2:Пракорейский
+field_alias[PRNUM] = Altaic etymology
+field_alias[MEANING] = \1:Meaning\2:Англ. значение
+field_alias[RUSMEAN] = \1:Russian meaning\2:Значение
+field_alias[PHN] = \1:Modern Korean\2:Совр. корейский
+field_alias[AKO] = \1:Middle Korean\2:Среднекорейский
+field_alias[REFERENCE] = \1:Comments\2:Комментарии
+field_list = PROTO-REFERENCE

@@ -1,0 +1,28 @@
+field_alias[NUMBER] = \1:Number\2:Номер
+proto = \data\alt\tunget.dbf
+AliasSet = 1
+field_alias[WORD] = \1:Word\2:Слово
+field_alias[EVK] = \1:Evenki\2:Эвенкийский
+field_alias[EVN] = \1:Even\2:Эвенский
+field_alias[NEG] = \1:Negidal\2:Негидальский
+field_alias[MAN] = \1:Spoken Manchu\2:Разговорный маньчжурский
+field_alias[LMA] = \1:Literary Manchu\2:Литературный маньчжурский
+field_alias[CHU] = \1:Jurchen\2:Чжурчженьский
+field_alias[ULC] = \1:Ulcha\2:Ульчский
+field_alias[ORK] = \1:Orok\2:Орокский
+field_alias[NAN] = \1:Nanai\2:Нанайский
+DBINFO START 1
+    100wordlists of Tungus-Manchu languages.   
+DBINFO END
+DBINFO START 2
+    100словные списки тунгусо-маньчжурских языков.
+DBINFO END
+field_alias[NEGNUM] = Negidal->Tunget
+field_alias[MANNUM] = SMan.->Tunget
+field_alias[LMANUM] = LMan.->Tunget
+field_alias[NANNUM] = Nanai->Tunget
+field_alias[ULCNUM] = Ulcha->Tunget
+field_alias[ORKNUM] = Orok->Tunget
+field_alias[CHUNUM] = Jurchen->Tunget
+field_alias[EVKNUM] = Evenki->Tunget
+field_list = NUMBER-EVKNUM

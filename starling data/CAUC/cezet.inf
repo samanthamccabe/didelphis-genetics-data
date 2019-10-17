@@ -1,0 +1,36 @@
+PROTO = \data\cauc\caucet.dbf
+AliasSet = 1
+field_alias[NUMBER] = \1:Number\2:Номер
+field_alias[PROTO] = \1:Proto-Tsezian\2:Працезский
+field_alias[PRNUM] = \1:North Caucasian etymology\2:СК этимология
+field_alias[MEANING] = \1:Meaning\2:Значение
+field_alias[CEZ] = \1:Tsezi\2:Цезский
+field_alias[GIN] = \1:Ginukh\2:Гинухский
+field_alias[KHV] = \1:Khvarshi\2:Хваршинский
+field_alias[INH] = \1:Inkhokvari\2:Инхокваринский
+field_alias[BZT] = \1:Bezhta\2:Бежтинский
+field_alias[GNZ] = \1:Gunzib\2:Гунзибский
+field_alias[COMMENT] = \1:Comments\2:Комментарии
+ 
+DBINFO START 2
+ Цезская часть севернокавказского этимологического словаря.
+
+    Структура базы данных
+    1. Праформа. Працезская форма в реконструкции С. Николаева.
+    2. Значение. Как в большинстве баз данных нижнего уровня, значение, приведенное здесь, не является результатом семантической реконструкции, а скорее представляет собой перечисление значений, засвидетельствованных в языках-потомках.
+    3-8. Языки: цезский, гинухский, хваршинский, инхокваринский (рассматриваемый здесь как независимый язык, а не как диалект хваршинского), бежтинский, гунзибский.
+    9. Комментарии. Здесь представлены две промежуточных реконструкции: працезскохварщинская (ПЦХ) и прагунзибскобежтинская (ПГБ). Языки в соответствующих подгруппах чрезвычайно близки друг к другу, и мы решили не организовывать для них отдельных баз данных. Тем не менее праформы эти вполне информативны, и во всех случаях приводятся в поле комментариев. Здесь также можно найти дополнительные диалектные данные и общие этимологические замечания.
+    10. СК этимология. Отсылка к вышестоящей северно(восточно)кавказской базе. 
+DBINFO END
+DBINFO START 1
+   The Tsezian part of the North Caucasian etymological dictionary.
+
+    Database structure.
+
+    1. Protoform. The Proto-Tsezian form in S. Nikolayev's reconstruction.
+    2. Meaning. As in most lowlevel (subgroup) databases the meaning presented here is not an attempt of semantic reconstruction, but rather an enumeration of the actually attested meanings in daughter languages.
+    3-8. Languages: Tsezi, Ginukh, Khvarshi, Inkhokvari (regarded here as an independent language and not as a dialect of Khvarshi), Bezhita, Gunzib.
+    9. Comments. Two intermediate reconstructions are presented here: the Proto-Tsezi-Khvarshi (PCK), and the Proto-Gunzib-Bezhita (PGB). The respective subgroups contain very closely related languages, and we decided not to procure separate databases for them. Nevertheless, the protoforms are rather informative and are placed into the comments field whenever available. One can also find  here additional dialectal data and general etymological remarks.
+    10. NC etymology. A link to the upper level North (East) Caucasian database. 
+DBINFO END
+field_list = PROTO-COMMENT

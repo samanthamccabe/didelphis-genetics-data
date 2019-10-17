@@ -1,0 +1,30 @@
+{
+  "modelPath": "model/AT_extended_x.model",
+  "optimization": "MIN",
+  "alignmentMode": "LOCAL",
+  "gapSymbol": "░",
+  "comparatorConfig": {
+    "type": "sparse",
+    "parameters": [
+      [ 0.83791, 1.00000, 1.00000, 0.46407, 0.56497, 0.12395, 1.00000, 0.88271, 0.30000, 1.00000, 0.54853, 0.30000, 0.84998, 0.25369, 0.30000, 0.47868, 0.27026, 0.27226, 0.30000, 0.83634, 0.47455, 0.59773, 0.30000],
+      {
+        "con-son": -0.09465,
+        "con-cnt":  0.53488,
+        "son-cnt": -0.33352,
+        "lat-nas": -0.46151,
+        "vce-son":  0.35032,
+        "lab-rnd": -0.18991,
+        "eje-rel": -2.67279,
+        "con-eje": -3.00000,
+        "con-rel":  2.83224
+      }
+    ]
+  },
+  "penaltyConfig": {
+    "type": "convex",
+    "parameters": [
+      0.0,
+      0.0
+    ]
+  }
+}

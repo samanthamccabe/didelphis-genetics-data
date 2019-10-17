@@ -1,0 +1,13 @@
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+proto = \data\cauc\laket.dbf
+field_alias[WORD] = \1:Word\2:Слово
+field_alias[LAK] = \1:Lak\2:Лакский
+field_alias[LAKNUM] = \1:Lak->Laket\2:Лакский->Laket
+DBINFO START 1
+	The Lak 100wordlist.
+DBINFO END
+DBINFO START 2
+	Лакский 100словный список.
+DBINFO END
+field_list = NUMBER-LAKNUM

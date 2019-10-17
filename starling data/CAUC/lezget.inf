@@ -1,0 +1,45 @@
+PROTO = \data\cauc\caucet.dbf
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+field_alias[PROTO] = \1:Proto-Lezghian\2:Пралезгинский
+field_alias[PRNUM] = \1:North Caucasian etymology\2:СК этимология
+field_alias[MEANING] = \1:Meaning\2:Значение
+field_alias[LZG] = \1:Lezghian\2:Лезгинский
+field_alias[TAB] = \1:Tabasaran\2:Табасаранский
+field_alias[AGU] = \1:Agul\2:Агульский
+field_alias[RUT] = \1:Rutul\2:Рутульский
+field_alias[CAK] = \1:Tsakhur\2:Цахурский
+field_alias[KRZ] = \1:Kryz\2:Крызский
+field_alias[BUD] = \1:Budukh\2:Будухский
+field_alias[ARC] = \1:Archi\2:Арчинский
+field_alias[UDI] = \1:Udi\2:Удинский
+DBINFO START 1
+  The Lezghian part of the North Caucasian Etymological Dictionary.
+
+    Database structure.
+
+    1. Protoform. The Proto-Lezghian form in S. Starostin's reconstruction.
+    2. Meaning. As in most lowlevel (subgroup) databases the meaning presented here is not an attempt of semantic reconstruction, but rather an enumeration of the actually
+attested meanings in daughter languages.
+    3-11. Languages: Lezghi, Tabasaran, Agul, Rutul, Tsakhur, Kryz, Budukh, 
+Archi, Udi.
+    12. Comments. Etymological notes and additional dialectal forms.
+    13. NC etymology. A link to the upper level North (East) Caucasian database.
+
+
+
+
+ 
+DBINFO END
+DBINFO START 2
+  Лезгинская часть севернокавказского этимологического словаря.
+
+    Структура базы данных
+    1. Праформа. Пралезгинская форма в реконструкции С. Старостина.
+    2. Значение. Как в большинстве баз данных нижнего уровня, значение, приведенное здесь, не является результатом семантической реконструкции, а скорее представляет собой перечисление значений, засвидетельствованных в языках-потомках.
+    3-11. Языки: лезгинский, табасаранский, агульский, рутульский, цахурский, крызский, будухский, арчинский, удинский.
+    12. Комментарии. Этимологические замечания и дополнительные диалектные формы.
+    13. СК этимология. Отсылка к вышестоящей северно(восточно)кавказской базе. 
+DBINFO END
+field_alias[COMMENT] = \1:Comment\2:Комментарий
+field_list = PROTO-COMMENT

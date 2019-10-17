@@ -1,0 +1,30 @@
+field_alias[PRNUM] = Nostratic etymology
+PROTO = \data\nostr\nostret.dbf
+field_list = PROTO-CHUK,ITEL,COMMENTS
+field_alias[NUMBER] = Number
+AliasSet = 1
+field_alias[PROTO] = Proto-Chukchee-Kamchatkan
+field_alias[MEANING] = Meaning (Rus.)
+field_alias[CHUK] = Proto-Chukchee-Koryak
+field_alias[CHUKNUM] = > Chukchee-Koryak
+field_alias[ITEL] = Proto-Itelmen
+field_alias[ITELNUM] = > Itelmen
+field_alias[COMMENTS] = Comments
+field_alias[NIOD] = Nivkh parallels
+field_alias[NIODNUM] = > Nivkh-Yukaghir
+DBINFO START 1
+ O. Mudrak's Chukchee-Kamchatkan database. The glosses and comments here are 
+in Russian (no English translation is available yet), so you need a Cyrillic 
+font and some knowledge of Russian to utilize this database.
+
+    Database structure.
+
+    1. Protoform. The reconstructed Proto-Chukchee-Kamchatkan form.
+    2. Meaning. The reconstructed meaning (in Russian).
+    3. Chukchee-Koryak. The reconstructed Chukchee-Koryak form, as well as a
+link to the subordinate Chukchee-Koryak database.
+    4. Itelmen. The reconstructed Proto-Itelmen form derived from the
+Chukchee-Kamchatkan protoform, as well as a link to the Itelmen database.
+    5. Comments. Etymological notes and references.
+
+DBINFO END

@@ -1,0 +1,42 @@
+PROTO = \data\alt\altet.dbf
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+field_alias[PROTO] = \1:Proto-Tungus-Manchu\2:Пратунгусоманьчжурский
+field_alias[PRNUM] = Altaic etymology
+field_alias[MEANING] = \1:Meaning\2:Англ. значение
+field_alias[RUSMEAN] = \1:Russian meaning\2:Значение
+field_alias[EVK] = \1:Evenki\2:Эвенкийский
+field_alias[EVN] = \1:Even\2:Эвенский
+field_alias[NEG] = \1:Negidal\2:Негидальский
+field_alias[SIB] = \1:Spoken Manchu\2:Разговорный маньчжурский
+field_alias[MAN] = \1:Literary Manchu\2:Литературный маньчжурский
+field_alias[CHU] = \1:Jurchen\2:Чжурчженьский
+field_alias[ULC] = \1:Ulcha\2:Ульчский
+field_alias[ORK] = \1:Orok\2:Орокский
+field_alias[NAN] = \1:Nanai\2:Нанайский
+field_alias[ORC] = \1:Oroch\2:Орочский
+field_alias[SOL] = \1:Solon\2:Солонский
+field_alias[UDE] = \1:Udighe\2:Удэйский
+field_alias[REFERENCE] = \1:Comments\2:Комментарии
+DBINFO START 1
+    This is the Tungus-Manchu database. It is subordinate to the  Common Altaic database. The basic source is the TMC - the Comparative Dictionary of Tungus-Manchu Languages compiled by Tsintsius et al. 
+
+    Database structure.
+
+    1. Protoform. The Proto-Tungus form, in the classical reconstruction of Tsintsius.
+    2. Altaic etymology. A link to the upper level (Common Altaic) database.
+    3. Meaning. As in most lowlevel (subgroup) databases the meaning presented here is not an attempt of semantic reconstruction, but rather an enumeration of the actually attested meanings in daughter languages.
+    4-15. Languages: Ewenki, Ewen, Negidal, Solon, Literary Manchu, Modern Manchu,  Zhurzhen, Nanai, Orok, Ulcha, Oroch, Udighe. 
+    12. Comments. Notes and references.
+DBINFO END
+DBINFO START 2
+    Это - тунгусо-маньчжурская база данных. Она подчинена общеалтайской базе. Основной источник - ТМС (сравнительный словарь тунгусо-маньчжурских языков под редакцией Цинциус).
+
+    Структура базы данных
+
+    1. Праформа. Пратунгусоманьчжурская форма, в классической реконструкции Цинциус.
+    2. Алтайская этимология. Отсылка к общеалтайской базе данных.
+    3. Значение. Как в большинстве баз данных нижнего уровня, значение, приведенное здесь, не является результатом семантической реконструкции, а скорее представляет собой перечисление значений, засвидетельствованных в языках-потомках.
+    4-15. Языки: эвенкийский, эвенский, негидальский, солонский, литературный маньчжурский, современный маньчжурский, чжурчженьский, нанайский, орокский, ульчский, орочский, удэйский.  16. Комментарии. Примечания и ссылки.
+DBINFO END
+field_list = PROTO-REFERENCE

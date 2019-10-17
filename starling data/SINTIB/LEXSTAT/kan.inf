@@ -1,0 +1,7 @@
+proto = \data\sintib\stibet
+AliasSet = 1
+field_alias[KANU] = Kanauri
+field_alias[KANUNUM] = KANuNUM
+field_alias[KAN] = Kanauri
+field_alias[KANNUM] = KANuNUM
+field_list = NUMBER-KANNUM

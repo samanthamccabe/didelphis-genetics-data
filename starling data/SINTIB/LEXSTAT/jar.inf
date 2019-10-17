@@ -1,0 +1,4 @@
+proto = \data\sintib\stibet
+field_alias[JIA] = Jiarung
+AliasSet = 1
+field_list = NUMBER-JIANUM

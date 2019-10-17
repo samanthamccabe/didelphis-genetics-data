@@ -1,0 +1,17 @@
+field_alias[TAM] = Tamil
+AliasSet = 1
+proto = \data\drav\dravet.dbf
+field_alias[NUMBER] = Number
+field_alias[WORD] = Word
+field_alias[TAMNUM] = Tamil num.
+field_alias[MUD] = Muduva
+field_alias[MUDNUM] = Muduva num.
+field_alias[IRU] = Irula
+field_alias[IRUNUM] = Irula num.
+field_alias[MAL] = Malayalam
+field_alias[MALNUM] = Malayalam num.
+field_alias[YER] = Yerukala
+field_alias[YERNUM] = Yerukala num.
+field_alias[KAS] = Kasaba
+field_alias[KASNUM] = Kasaba num.
+field_list = NUMBER-BRANUM

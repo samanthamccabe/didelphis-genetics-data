@@ -1,0 +1,31 @@
+PROTO = \data\sintib\kiret.dbf
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+field_alias[PROTO] = \1:Entry\2:Слово
+field_alias[PRNUM] = \1:Kiranti etymology\2:Этимология киранти
+field_alias[PSPEECH] = \1:Grammar\2:Грамматика
+field_alias[MEANING] = \1:Meaning\2:Значение
+field_alias[NEPALI] = \1:Nepali\2:Непали
+field_alias[COMMENTS] = \1:Comments\2:Комментарии
+DBINFO START 1
+    The Kulung dictionary provided by G. Tolsma, published in Tolsma  1999. Here, as also in other Leiden databases, we preserve the original system of transcription, different from the one usually employed on our site. The differences are the following: vowel length is marked by :; the resonant j is denoted as y; the affricates c, ·, ╢, √ - as ts, dz, c, j respectively; the nasal ╤ - as N.
+
+    Database structure.
+
+    1. Entry - the headword in Kulung. If it has parallels in other languages, a link is given to the Kiranti database.
+    2. Part of speech - grammatical information.
+    3. Nepali - the Nepali equivalent.
+    4. Comments.
+DBINFO END
+DBINFO START 2
+    Словник языка кулунг, предоставленный Дж. Толсма. В книжном виде опубликован в Tolsma 1999. Здесь, как и в других лейденских базах данных, сохранена собственная система транскрипции, отличающаяся от обычно принятой у нас на сайте. Отличия сводятся к следующему: долгота гласных обозначается посредством знака :; сонант j обозначается как y; аффрикаты c, ·, ╢, √ - как  ts, dz, c, j соответственно; носовой ╤ - как N.
+
+    Структура базы данных.
+
+    1. Заглавное слово - исходная словоформа языка кулунг. Если слово имеет параллели в других языках, дается отсылка к базе данных киранти.
+    2. Часть речи - грамматическая информация.
+    3. Непали - эквивалент в непальском языке.
+    4. Комментарии.
+DBINFO END
+field_list = PROTO-COMMENTS
+lookup[1] = C:\star\prg\star32\altet.dbf

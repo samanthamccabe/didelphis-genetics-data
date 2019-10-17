@@ -1,0 +1,29 @@
+field_alias[NUMBER] = \1:Number\2:Номер
+proto = \data\alt\japet.dbf
+AliasSet = 1
+field_alias[WORD] = \1:Word\2:Слово
+field_alias[TOK] = \1:Tokyo\2:Токио
+field_alias[TOKNUM] = Tokyo->Japet
+field_alias[KAM] = \1:Kameyama\2:Камэяма
+field_alias[KAMNUM] = Kameyama->Japet
+field_alias[KYO] = \1:Kyoto\2:Кето
+field_alias[KYONUM] = Kyoto->Japet
+field_alias[KAG] = \1:Kagoshima\2:Кагосима
+field_alias[KAGNUM] = Kagoshima->Japet
+field_alias[AJP] = \1:Old Japanese\2:Древнеяпонский
+field_alias[AJPNUM] = OJ->Japet
+field_alias[NAS] = \1:Nase\2:Насэ
+field_alias[NASNUM] = Nase->Japet
+field_alias[SHU] = \1:Shuri\2:Сюри
+field_alias[SHUNUM] = Shuri->Japet
+field_alias[HAT] = \1:Hateruma\2:Хатэрума
+field_alias[HATNUM] = Hateruma->Japet
+field_alias[YON] = \1:Yonakuni\2:Йонакуни
+field_alias[YONNUM] = Yonakuni->Japet
+DBINFO START 1
+	The Japanese 100wordlists from several mainland dialects and some Ryukyu dialects. Compiled by S. Starostin.
+DBINFO END
+DBINFO START 2
+	Стословные списки нескольких японских островных диалектов и диалектов Рюкю.
+DBINFO END
+field_list = WORD,TOK,KAM,KYO,KAG,AJP,NAS,SHU,HAT,YON

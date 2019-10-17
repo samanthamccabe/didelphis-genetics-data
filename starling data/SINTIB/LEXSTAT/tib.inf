@@ -1,0 +1,11 @@
+proto = \data\sintib\stibet
+field_alias[JIR] = Jirel
+field_alias[SHE] = Sherpa
+field_alias[WRT] = Writ.Tib
+AliasSet = 1
+field_alias[LHA] = Lhasa
+field_alias[BAT] = Batang-T
+field_alias[XIA] = Xiaxe-T
+field_alias[ALI] = Alike-T
+field_alias[CUO] = Cuona-M
+field_list = NUMBER-CUONUM

@@ -1,0 +1,15 @@
+AliasSet = 1
+proto = \data\cauc\darget.dbf
+field_alias[NUMBER] = \1:Number\2:Номер
+field_alias[WORD] = \1:Word\2:Слово
+field_alias[DRG] = \1:Akusha\2:Акушинский
+field_alias[DRGNUM] = \1:Akusha->Darget\2:Акушинский->Darget
+field_alias[CHR] = \1:Chiragh\2:Чирагский
+field_alias[CHRNUM] = \1:Chiragh->Darget\2:Чирагский->Darget
+DBINFO START 1
+    The Dargwa 100 wordlist. Compiled by S. Starostin
+DBINFO END
+DBINFO START 2
+    Даргинский 100словный список. Составлен С. Старостиным.
+DBINFO END
+field_list = NUMBER-CHRNUM

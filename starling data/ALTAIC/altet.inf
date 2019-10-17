@@ -1,0 +1,57 @@
+PROTO = \data\nostr\nostret.dbf
+AliasSet = 1
+field_alias[TURC] = \1:Turkic\2:Тюркский
+field_alias[PROTO] = \1:Proto-Altaic\2:Праалтайский
+field_alias[NUMBER] = \1:Number\2:Номер
+field_alias[PRNUM] = Nostratic
+field_alias[MEANING] = \1:Meaning\2:Англ. значение
+field_alias[RUSMEAN] = \1:Russian meaning\2:Значение
+field_alias[TURCNUM] = Turk.->Turcet
+field_alias[MONG] = \1:Mongolian\2:Монгольский
+field_alias[MONGNUM] = Mong.->Monget
+field_alias[TUNG] = \1:Tungus-Manchu\2:Тунгусо-маньчжурский
+field_alias[TUNGNUM] = Tung.->Tunget
+field_alias[KOR] = \1:Korean\2:Корейский
+field_alias[KORNUM] = Kor.->Koret
+field_alias[JAP] = \1:Japanese\2:Японский
+field_alias[JAPNUM] = Jpn.->Japet
+field_alias[REFERENCE] = \1:Comments\2:Комментарии
+DBINFO START 2
+    Это - компьютерная версия "Алтайского Этимологического Словаря" С. Старостина, А. Дыбо и О. Мудрака (Brill 2003).
+
+    Структура базы данных
+
+    1. Праформа. Праалтайская форма для каждой словарной статьи.
+    2. Значение. Вероятное значение алтайской праформы.
+    3. Тюркская праформа. Пратюркская форма, с модификациями О. Мудрака (в основном касающимися введения некоторых дополнительных вокалических различий). Поле одновременно является отсылкой к тюркской базе данных.
+    4. Монгольская праформа. Прамонгольская форма, в основном совпадающая с засвидетельствованной среднемонгольской. Поле одновременно является отсылкой к монгольской базе данных.
+    5. Тунгусская праформа. Пратунгусоманьчжурская форма (в традиционной реконструкции Бенцинга / Цинциус). Поле также является отсылкой к отдельной тунгусо-маньчжурской базе данных.
+    6. Корейская праформа. Корейских праформ на самом деле не дается: формы, приведенные здесь, реально являются среднекорейскими (15 в.), с небольшим числом модификаций, основанных на внутренней морфонологической реконструкции. Современные корейские диалекты слишком близки друг к другу и не позволяют осуществить настоящей пракорейской реконструкции, а данных древнекорейского языка (11-14 вв.) вообще слишком мало для каких бы то ни было выводов. Поле также является отсылкой к отдельной корейской базе данных.
+    7. Японская праформа. Праяпонская форма, реконструированная в соответствии с Старостин 1975. Также отсылка к подчиненной японской базе данных.
+    8. Комментарии. Ссылки и этимологические замечания.
+
+
+ 
+DBINFO END
+DBINFO START 1
+    This is the database version of the "Altaic Etymological Dictionary" by S. Starostin, A. Dybo and O. Mudrak (Brill publishers, 2003).
+
+    Database structure.
+
+    1. Protoform. The Proto-Altaic form for each entry.
+    2. Meaning. The probable meaning of the Altaic protoform.
+    3. Turkic protoform. The Proto-Turkic form, with O. Mudrak's modifications (basically concerning the introduction of some vocalic distinctions). The field is at the same time a link to the Turkic database.
+    4. Mongolian protoform. The Proto-Mongolian form, basically coinciding with attested Middle Mongolian. The field is at the same time a link to the Mongolian database.
+    5. Tungus protoform. The Proto-Tungus form (in traditional reconstruction, based on Benzing / Tsintsius). The field is also a link to the separate Tungus-Manchu database.
+    6. Korean protoform. There are actually no Korean protoforms: the forms included here are actually Middle Korean (15th c.), with a few modifications based on inner morphonological reconstruction. Modern Korean dialects are too close to each other to justify a proper Proto-Korean reconstruction, and the evidence from Old Korean (11th - 14th centuries) is too scanty to make any conclusions at all. The field is also a link to a separate Korean database.
+    7. Japanese protoform. The Proto-Japanese form, based on Starostin 1975. Also a link to the subordinate Japanese database.
+    8. Comments. References and etymological notes.
+
+
+ 
+ 
+DBINFO END
+field_list = PROTO-TURC,MONG,TUNG,KOR,JAP,REFERENCE
+DBINFO START 3
+Third info
+DBINFO END

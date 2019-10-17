@@ -1,0 +1,13 @@
+proto = \data\sintib\stibet
+field_alias[RAW] = Rawang
+field_alias[RAWNUM] = RawNum
+field_alias[DUL] = Dulong
+field_alias[ANO] = Anong
+field_alias[DAR] = 22Taraon
+field_alias[GEM] = 23Geman
+field_alias[JIN] = Jingpho
+field_alias[NUS] = Nusu
+field_alias[ROU] = Rourou
+field_alias[NUJ] = Nujiang
+AliasSet = 1
+field_list = NUMBER-DULNUM

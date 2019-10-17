@@ -1,0 +1,75 @@
+{
+  "destinationPath": "output",
+  "transformations": [
+    ["\\\\[iI]",""],
+    ["[–?~-]", ""],
+    ["\\d+", ""],
+    ["Ø", ""],
+    ["\\[.*\\]", ""],
+    ["\\[.*", ""],
+    ["[()\\[\\]\\{\\}<>]", ""],
+    ["[,.;/'*].*", ""],
+    ["\\s+", ""],
+
+    [ ":",     "ː"    ],
+
+    ["A", "a"],
+    ["R", "r"],
+    ["O", "o"],
+    ["S", "s"],
+    
+    ["ü", "y"],
+    ["ö", "ø"],
+    ["ä", "æ"],
+    ["ĳ", "ij"],
+    ["G", "ɢ"],
+
+    [ "š|š|š̌|š̌", "ʃ"  ],
+    [ "č|č|č̌|č̌", "tʃ" ],
+    [ "ž|ž|ž̌|ž̌", "ʒ"  ],
+    [ "ǯ|ǯ|ǯ̌|ǯ̌", "dʒ" ],
+
+    ["",""]
+  ],
+  "files": [
+    {
+      "type": "dsv",
+      "path": "starling exports/altaic/turcet.dsv",
+      "displayNames":{
+        "ATU":     "Old Turkic",
+        "KRH":     "Karakhanid",
+        "TRK":     "Turkish",
+        "TAT":     "Tatar",
+        "CHG":     "Middle Turkic",
+        "UZB":     "Uzbek",
+        "UIG":     "Uighur",
+        "SJG":     "Sary-Yughur",
+        "AZB":     "Azerbaijani",
+        "TRM":     "Turkmen",
+        "HAK":     "Khakassian",
+        "SHR":     "Shor",
+        "ALT":     "Oyrat",
+        "KHAL":    "Halaj",
+        "CHV":     "Chuvash",
+        "JAK":     "Yakut",
+        "DOLG":    "Dolgan",
+        "TUV":     "Tuva",
+        "TOF":     "Tofalar",
+        "KRG":     "Kyrghyz",
+        "KAZ":     "Kazakh",
+        "NOGX":    "Nogai",
+        "BAS":     "Bashkir",
+        "BLKX":    "Balkar",
+        "GAGX":    "Gagauz",
+        "KRMX":    "Karaim",
+        "KLPX":    "Karakalpak",
+        "SAL":     "Salar",
+        "QUM":     "Kumyk"
+      },
+      "keys": [
+        ["TRK", "AZB"],
+        ["TRK", "KRG"]
+      ]
+    }
+  ]
+}

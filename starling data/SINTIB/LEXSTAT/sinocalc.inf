@@ -1,0 +1,10 @@
+DBINFO START 1
+Result of glottochronological calculations for: f:\data\sintib\lexstat\sino.dbf
+Method of calculations: Standard
+Replacement rate employed:          0.050
+Processed entries had stability ranks from 1 to        100
+File contains normalized percentages (upper triangle); 
+   Lower triangle contains the replacement rate and percentage in the format
+"repl.rate * 1000 . percentage of matches" for each pair of languages.
+
+DBINFO END

@@ -1,0 +1,15 @@
+proto = \data\sintib\stibet
+field_alias[KAP] = Kayan-Pekon
+field_alias[YEI] = Yeinbaw
+field_alias[GEK] = Geker
+field_alias[KEL] = Kelun
+field_alias[PLC] = Palaichi
+field_alias[PAO] = Pa'O
+field_alias[MNU] = Manu
+field_alias[GEB] = Geba
+AliasSet = 1
+field_alias[YIN] = Yintale
+field_alias[KYH] = W.Kayah
+field_alias[SGO] = Sgaw
+field_list = NUMBER-PLCNUM
+field_alias[PDN] = Padaung

@@ -1,0 +1,26 @@
+field_alias[NUMBER] = \1:Number\2:Номер
+proto = \data\alt\monget.dbf
+AliasSet = 1
+field_alias[WORD] = \1:Word\2:Слово
+field_alias[HAL] = \1:Khalkha\2:Халха
+field_alias[KAL] = \1:Kalmuck\2:Калмыцкий
+field_alias[DUN] = \1:Dongxian\2:Дунсянский
+field_alias[BAO] = \1:Baoan\2:Баоаньский
+field_alias[DAG] = \1:Dagur\2:Дагурский
+field_alias[YUY] = \1:Shary-Yoghur\2:Шарыюгурский
+field_alias[MGR] = \1:Monguor\2:Монгорский
+DBINFO START 1
+  The Mongolian 100wordlists.
+DBINFO END
+DBINFO START 2
+  Монгольские 100словные списки 
+DBINFO END
+field_alias[AMONUM] = MMong.->Monget
+field_alias[HALNUM] = Khalkha->Monget
+field_alias[KALNUM] = Kalmuck->Monget
+field_alias[DUNNUM] = Dongxian->Monget
+field_alias[BAONUM] = Baoan->Monget
+field_alias[DAGNUM] = Dagur->Monget
+field_alias[MGRNUM] = Mongor->Monget
+field_alias[YUYNUM] = Shary-Yoghur->Monget
+field_list = NUMBER-YUYNUM

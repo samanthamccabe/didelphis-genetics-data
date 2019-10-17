@@ -1,0 +1,31 @@
+AliasSet = 1
+field_alias[NUMBER] = \1:Number\2:Номер
+field_alias[PROTO] = \1:Proto-Dargwa\2:Прадаргинский
+field_alias[PRNUM] = \1:North Caucasian etymology\2:СК этимология
+field_alias[MEANING] = \1:Meaning\2:Значение
+field_alias[DRG] = \1:Akusha\2:Акушинский
+field_alias[CHR] = \1:Chiragh\2:Чирагский
+field_alias[COMMENT] = \1:Comments\2:Комментарии
+DBINFO START 1
+   The Dargwa part of the North Caucasian Etymological Dictionary.
+
+    Database structure.
+
+    1. Protoform. The Proto-Dargwa form in S. Nikolayev's reconstruction.
+    2. Meaning. As in most lowlevel (subgroup) databases the meaning presented here is not an attempt of semantic reconstruction, but rather an enumeration of the actually attested meanings in daughter languages.
+    3-4. Languages (dialects): Akusha, Chirag. The Dargwa dialects are considerably further from each other than, e. g., Lak dialects and can be justifiably qualified as languages. However, really complete data is available only for Akusha (the literary Dargwa language) and for the Chirag dialect, collected by the MSU expeditions. 
+    5. Comments. Additional dialectal data available (basically from Musayev's work) are placed here, as well as all sorts of explanatory remarks.
+    6. NC etymology. A link to the upper level North (East) Caucasian database.
+DBINFO END
+DBINFO START 2
+   Даргинская часть севернокавказского этимологического словаря.
+
+    Структура базы данных.
+    1. Праформа. Прадаргинская форма в реконструкции С. Николаева.
+    2. Значение. Как в большинстве баз данных нижнего уровня, значение, приведенное здесь, не является результатом семантической реконструкции, а скорее представляет собой перечисление значений, засвидетельствованных в языках-потомках.
+    3-4. Языки (диалекты): акушинский, чирагский. Даргинские диалекты значительно дальше друг от друга, чем, к примеру, лакские диалекты, и вполне могут квалифицироваться как отдельные языки. Однако реально полные данные имеются только по акушинскому диалекту (литературный даргинский язык), а также по чирагскому диалекту - материалы экспедиций МГУ.
+    5. Комментарии. Здесь располагаются имеющиеся в нашем распоряжении  дополнительные диалектные данные (в основном из работы Мусаева) , а также различного рода пояснения.
+    6. СК этимология. Отсылка к вышестоящей северно(восточно)кавказской базе.
+DBINFO END
+PROTO = caucet.dbf
+field_list = PROTO-COMMENT

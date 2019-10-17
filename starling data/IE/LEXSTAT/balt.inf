@@ -1,0 +1,14 @@
+proto = \data\ie\baltet.dbf
+lit = \data\ie\baltet.dbf
+let = \data\ie\baltet.dbf
+jat = \data\ie\baltet.dbf
+field_list = WORD,LIT,LET,JAT
+field_alias[NUMBER] = Number
+AliasSet = 1
+field_alias[WORD] = Word
+field_alias[LIT] = Lithuanian
+field_alias[LITNUM] = Lithuanian #
+field_alias[LET] = Lettish
+field_alias[LETNUM] = Lettish #
+field_alias[JAT] = Yatvingian
+field_alias[JATNUM] = Jatvyazh #

@@ -1,0 +1,51 @@
+PROTO = \data\sintib\stibet.dbf
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+field_alias[PROTO] = \1:Proto-Kiranti\2:Пракиранти
+field_alias[PRNUM] = \1:Sino-Tibetan etymology\2:Синотибетская этимология
+field_alias[MEANING] = \1:Meaning\2:Значение
+field_alias[SUN] = \1:Sunwar\2:Сунвар
+field_alias[TUL] = \1:Tulung\2:Тулунг
+field_alias[KAL] = \1:Kaling\2:Калинг
+field_alias[LIM] = \1:Limbu\2:Лимбу
+field_alias[LIMNUM] = ->Limet
+field_alias[DUM] = \1:Dumi\2:Думи
+field_alias[DUMNUM] = ->Dumet
+field_alias[KUL] = \1:Kulung\2:Кулунг
+field_alias[KULNUM] = ->Kulet
+field_alias[YAM] = \1:Yamphu\2:Ямпху
+field_alias[YAMNUM] = ->Yamet
+field_alias[NOTES] = \1:Comments\2:Комментарии
+DBINFO START 2
+    Раздел по киранти синотибетского этимологического словаря. Эта база  включает в себя информацию по языкам сунвар, кхалинг, тулунг, лимбу, думи и кулунг (ожидается еще добавление материалов по чамлинг и атпаре). Материалы по всем языкам взяты из опубликованных работ Аллена, Хэйла, Тоба, Ван Дрима и Толсма. Транскрипция всюду приведена к "старлинговскому" стандарту (см. об этом подробнее в описании баз данных по лимбу, думи и кулунг).
+    Структура базы данных:
+    1. Праформа. Дается реконструкция С. Старостина (отдельно не опубликованная, но представленная на Синотибетском конгрессе в Париже в 1994 г.) 
+    2. Значение. Приблизительное значение формы пракиранти.
+    3. Сунвар. Форма в языке сунвар (цитируется по Hale 1973).
+    4. Тулунг. Форма в языке тулунг (цитируется по Allen 1975).
+    5. Кхалинг. Форма в языке кхалинг (по Toba 1975 и Toba 1984).
+    6. Лимбу. Форма в языке лимбу (цитируется в основном по лимбу-непали-английскому словарю Чемджонга (Chemjong 1961)). При этом дается отсылка на базу данных по лимбу Дж. Ван Дрима, в которой представлен другой диалект лимбу.
+    7. Думи. Форма в языке думи (цитируется по Van Driem 1992), с отсылками к базе данных Дж. Ван Дрима.
+    8. Кулунг. Форма в языке кулунг (цитируется по Tolsma 1995), с отсылками к базе данных Дж. Толсма.
+    9. Комментарии. Разного рода примечания.
+
+
+
+ 
+DBINFO END
+DBINFO START 1
+    The Kiranti part of the Sino-Tibetan Etymological dictionary. This database includes information on the Sunwar, Khaling, Thulung, Limbu, Dumi and Kulung languages. Expected are also Chamling and Athpare materials. Data on all languages are taken from published works of Allen, Hale, Toba, Van Driem and Tolsma. Transcription is everywhere reduced to the "Starling" standard (see more details in the separate Limbu, Dumi and Kulung databases).
+    Database structure:
+    1. Protoform. Here we list S. Starostin's reconstruction (not published separately, but presented on the Sino-Tibetan conference in Paris, 1994).
+    2. Meaning. The approximately reconstructed meaning of the Proto-Kiranti form.
+    3. Sunwar. The Sunwar form (according to Hale 1973).
+    4. Thulung. The Thulung form (according to Allen 1975).
+    5. Khaling. The Khaling form (according to Toba 1975 and Toba 1984).
+    6. Limbu. The Limbu form (basically according to the Limbu-Nepali-English dictionary, Chemjong 1961). A link is given to the Limbu database of G. Van Driem, where a different Limbu dialect is presented.
+    7. Dumi. The Dumi form according to Van Driem 1992, with links to the Dumi database of G. Van Driem.
+    8. Kulung. The Kulung form according to Tolsma 1995, with links to G.  Tolsma's Kulung database.
+    9. Comments. Various notes.
+
+DBINFO END
+lookup[1] = \DATA\SINTIB\stibet.dbf
+field_list = PROTO-LIM,DUM,KUL,YAM,NOTES

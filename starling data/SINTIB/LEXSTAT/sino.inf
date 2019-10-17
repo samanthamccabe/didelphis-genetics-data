@@ -1,0 +1,8 @@
+proto = \data\sintib\stibet
+field_alias[OCH] = Old Chinese
+field_alias[PEK] = Beijing
+field_alias[JIA] = Bai
+field_alias[FUZ] = Fuzhou
+field_alias[HKK] = Hakka
+AliasSet = 1
+field_list = NUMBER-HKKNUM

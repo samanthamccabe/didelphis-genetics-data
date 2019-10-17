@@ -1,0 +1,35 @@
+PROTO = \data\sintib\kiret.dbf
+field_alias[PROTO] = \1:Entry\2:Слово
+AliasSet = 1
+field_alias[STEM] = \1:Stem\2:Основа
+field_alias[PSPEECH] = \1:Grammar\2:Грамматика
+field_alias[MEANING] = \1:Meaning\2:Значение
+field_alias[COMMENTS] = \1:Comments\2:Комментарии
+field_alias[NEPALI] = \1:Nepali\2:Непали
+field_alias[NUMBER] = \1:Number\2:Номер
+field_alias[PRNUM] = \1:Kiranti etymology\2:Этимология киранти
+DBINFO START 1
+    The Yamphu dictionary provided by R. Rutgers, published in Rutgers  2000. Here, as also in other Leiden databases, we preserve the original system of transcription, different from the one usually employed on our site. The differences are the following: vowel length is marked by :; the resonant j is denoted as y; the affricates c, ·, ╢, √ - as ts, dz, c, j respectively; the nasal ╤ - as N.
+
+    Database structure.
+
+    1. Entry - the headword in Yamphu. If it has parallels in other languages, a link is given to the Kiranti database.
+    2. Stem - morphological stem, if distinct from the entry.
+    3. Part of speech - grammatical information.
+    4. Nepali - the Nepali equivalent.
+    5. Comments.
+ 
+DBINFO END
+DBINFO START 2
+    Словник языка ямпху, предоставленный Р. Рутгерсом. В книжном виде опубликован в Rutgers 2000. Здесь, как и в других лейденских базах данных, сохранена собственная система транскрипции, отличающаяся от обычно принятой у нас на сайте. Отличия сводятся к следующему: долгота гласных обозначается посредством знака :; сонант j обозначается как y; аффрикаты c, ·, ╢, √ - как  ts, dz, c, j соответственно; носовой ╤ - как N.
+
+    Структура базы данных.
+
+    1. Заглавное слово - исходная словоформа языка ямпху. Если слово имеет параллели в других языках, дается отсылка к базе данных киранти.
+    2. Основа - морфологическая основа, если она отличается от исходной словоформы.
+    3. Значение.
+    2. Часть речи - грамматическая информация.
+    3. Непали - эквивалент в непальском языке.
+    4. Комментарии.
+DBINFO END
+field_list = PROTO-NEPALI

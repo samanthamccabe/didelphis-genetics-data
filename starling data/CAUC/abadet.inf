@@ -1,0 +1,36 @@
+PROTO = \data\cauc\caucet.dbf
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+field_alias[PROTO] = \1:Proto-West-Caucasian\2:Празападнокавказский
+field_alias[PRNUM] = \1:North Caucasian etymology\2:Севернокавказская этимология
+field_alias[MEANING] = \1:Meaning\2:Значение
+field_alias[ABK] = \1:Abkhaz\2:Абхазский
+field_alias[ABA] = \1:Abaza\2:Абазинский
+field_alias[ADG] = \1:Adyghe\2:Адыгейский
+field_alias[KAB] = \1:Kabardian\2:Кабардинский
+field_alias[UBK] = \1:Ubykh\2:Убыхский
+field_alias[COMMENT] = \1:Comments\2:Комментарии
+DBINFO START 1
+     This is the West Caucasian (Abkhazo-Adyghe) part of the North Caucasian comparative dictionary.
+    Database structure.
+    1. Protoform. The PWC form in S. A. Starostin's reconstruction.
+    2. Meaning. As in most lowlevel (subgroup) databases the meaning presented here is not an attempt of semantic reconstruction, but rather an enumeration of the actually attested meanings in daughter languages.
+    3-7. Languages: Abkhaz, Abaza, Adyghe, Circassian, Ubykh.
+    8. Comments. Since the three subgroups of West Caucasian (Abkhaz-Abaza, Adyghe-Circassian and Ubykh) are very small and compact, I decided not to place them in separate databases. This field, therefore, wherever it is possible contains reconstructed Proto-Abkhaz-Abaza ( = Proto-Abkhaz-Tapanta, PAT) forms and Proto-Circassian ( = Proto-Adyghe-Circassian, Proto-Adyghe-Kabardian, PAK) forms.
+    9. NC etymology. A link to the upper level North Caucasian database.
+DBINFO END
+DBINFO START 2
+    Это - западнокавказская (абхазо-адыгская) часть севернокавказского сравнительного словаря.
+
+    Структура базы данных
+    1. Праформа. ПЗК форма в реконструкции С. А. Старостина
+    2. Значение. Как в большинстве баз данных нижнего уровня, значение, приведенное здесь, не является результатом семантической реконструкции, а скорее представляет собой перечисление значений, засвидетельствованных в языках-потомках.
+    3-7. Языки: абхазский, абазинский, адыгейский, кабардинский, убыхский.
+    8. Комментарии. Поскольку три западнокавказских подгруппы (абхазо-абазинская, адыгская и убыхская) очень малы и компактны, я решил не помещать их в отдельные базы данных. Поэтому в данном поле, где это возможно, помещаются реконструированные праабхазоабазинские ( = праабхазотапантские, ПАТ) и праадыгские ( = праадыгейско-кабардинские, ПАК) формы.
+    9. СК этимология. Отсылка к вышестоящей севернокавказской базе. 
+DBINFO END
+field_list = NUMBER-COMMENT
+
+
+
+

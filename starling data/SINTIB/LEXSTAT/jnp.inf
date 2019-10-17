@@ -1,0 +1,4 @@
+proto = \data\sintib\stibet
+field_list = NUMBER-JNPNUM
+field_alias[JNP] = Jingpo
+AliasSet = 1

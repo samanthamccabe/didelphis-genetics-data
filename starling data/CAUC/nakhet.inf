@@ -1,0 +1,36 @@
+PROTO = \data\cauc\caucet.dbf
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+field_alias[PROTO] = \1:Proto-Nakh\2:Протонахский
+field_alias[PRNUM] = \1:North Caucasian etymology\2:СК этимология
+field_alias[MEANING] = \1:Meaning\2:Значение
+field_alias[CHE] = \1:Chechen\2:Чеченский
+field_alias[ING] = \1:Ingush\2:Ингушский
+field_alias[BCB] = \1:Batsbi\2:Бацбийский
+DBINFO START 1
+  The Nakh part of the North Caucasian Etymological Dictionary.
+
+    Database structure.
+
+    1. Protoform. The Proto-Nakh form in S. Nikolayev's reconstruction
+    2. Meaning. As in most lowlevel (subgroup) databases the meaning presented here is not an attempt of semantic reconstruction, but rather an enumeration of the actually attested meanings in daughter languages.
+    3-5. Languages: Chechen, Ingush, Batsbi.
+    6. Comments. Additional data from Chechen dialects and etymological notes.
+    7. NC etymology. A link to the upper level North (East) Caucasian database.
+
+
+ 
+DBINFO END
+DBINFO START 2
+   Нахская часть севернокавказского этимологического словаря.
+
+    Структура базы данных
+    1. Праформа. Пранахская форма в реконструкции С. Николаева.
+    2. Значение. Как в большинстве баз данных нижнего уровня, значение, приведенное здесь, не является результатом семантической реконструкции, а скорее представляет собой перечисление значений, засвидетельствованных в языках-потомках.
+    3-5. Языки: чеченский, ингушский, бацбийский.
+    6. Комментарии. Этимологические замечания и дополнительные чеченские диалектные формы.
+    7. СК этимология. Отсылка к вышестоящей северно(восточно)кавказской базе. 
+DBINFO END
+field_list = PROTO-COMMENT
+field_alias[COMMENT] = \1:Comments\2:Комментарии
+lookup[1] = C:\DATA\CAUC\caucet.dbf

@@ -1,0 +1,39 @@
+PROTO = \data\drav\dravet.dbf
+AliasSet = 1
+field_alias[MEANING] = \1:Meaning \2:Значение
+field_alias[TAM] = \1:Tamil \2:Тамильский
+field_alias[TAMMEAN] = \1:Tamil meaning \2:Тамильское значение
+field_alias[TAMDER] = \1:Tamil derivates \2:Тамильские производные
+field_alias[MAL] = \1:Malayalam \2:Малаялам
+field_alias[MALMEAN] = \1:Malayalam meaning \2:Малаяльское значение
+field_alias[MALDER] = \1:Malayalam derivates \2:Малаяльские производные
+field_alias[KAN] = \1:Kannada \2:Каннада
+field_alias[KANMEAN] = \1:Kannada meaning \2:Каннада значение
+field_alias[KANDER] = \1:Kannada derivates \2:Каннада производные
+field_alias[KOD] = \1:Kodagu \2:Кодагу
+field_alias[KODMEAN] = \1:Kodagu meaning \2:Кодагу значение
+field_alias[KODDER] = \1:Kodagu derivates \2:Кодагу производные
+field_alias[TUL] = \1:Tulu \2:Тулу
+field_alias[TULMEAN] = \1:Tulu meaning \2:Тулу значение
+field_alias[TULDER] = \1:Tulu derivates \2:Тулу производные
+field_alias[KT] = \1:Proto-Nilgiri \2:Пранильгирийский
+field_alias[IRU] = \1:Irula \2:Ирула
+field_alias[IRUMEAN] = \1:Irula meaning \2:Ирула значение
+field_alias[IRUDER] = \1:Irula derivates \2:Ирула производные
+field_alias[MISC] = \1:Miscellaneous \2:Разное
+field_alias[NOTES] = \1:Notes \2:Комментарии
+field_alias[DEDNUM] = \1:Number in DED \2:Номер по DED
+DBINFO START 1
+\UThe South-Dravidian database
+
+\uThe main database for South Dravidian etymological data. Its only difference from other intermediate Dravidian databases is that for every language, apart from the basic field and the meaning field, there is also a special "derivates field" where, true enough, derivative forms are listed. This is mainly due to the fact that DED contains way too much South Dravidian material to be lumped into one "Miscellaneous" or "Derivates" field. So far not all the entries are accompanied by protoforms, but all of those with external parallels outside South Dravidian always are.
+DBINFO  END
+field_alias[PRNUM] = Dravidian etymology
+field_alias[KTNUM] = \1:Nilgiri etymology
+field_alias[KAS] = \1:Kasaba \2:Ирула
+field_alias[KASMEAN] = \1:Kasaba meaning \2:Касаба значение
+field_alias[KASDER] = \1:Kasaba derivates \2:Касаба производные
+field_list = PROTO-KT,IRU-DEDNUM
+field_alias[STEMS] = Stems
+field_alias[NUMBER] = \1:Number \2:Номер
+field_alias[PROTO] = \1:Proto-South Dravidian \2:Праюжно-дравидийский

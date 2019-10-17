@@ -1,0 +1,88 @@
+PROTO = sdret.dbf
+field_alias[PROTO] = \1:Proto-Nilgiri \2:è‡†≠®´Ï£®‡®©·™®©
+AliasSet = 1
+field_alias[MEANING] = \1:Meaning \2:á≠†Á•≠®•
+field_alias[KOTA] = \1:Kota \2:äÆ‚†
+field_alias[TODA] = \1:Toda \2:íÆ§†
+field_alias[ADDITION] = \1:Additional forms \2:ÑÆØÆ´≠®‚•´Ï≠Î• ‰Æ‡¨Î
+field_alias[NOTES] = \1:Notes \2:äÆ¨¨•≠‚†‡®®
+field_alias[DEDNUM] = \1:Number in DED \2:çÆ¨•‡ ØÆ DED
+field_alias[STEMS] = \1:Stems \2:é·≠Æ¢Î
+DBINFO START 1
+ The Nilgiri (Kota-Toda) database, subordinate to the South Dravidian database
+(which in its turn is subordinate to the Common Dravidian database).
+
+    Database structure.
+    1. Protoform. The Proto-Kota-Toda reconstruction.
+    2. Meaning. The reconstructed meaning.
+    3-4. Languages: Kota, Toda.
+    5. Derivatives.
+    6. Comments.
+    7. DED number.
+    8. South Dravidian etymology. Link to the upper level South Dravidian 
+database. 
+
+Select correspondences (work in progress).
+
+
+Proto-Nilgiri   Kota                 Toda                     
+*a             a             o, a
+*∞          ∞               “
+*∞ [2nd syl.]  ∞              ∆
+*-iﬂ            -y            -y
+*≈          ≈               ∆
+*π          π               π
+*ai         a               Ú
+*p          p               p
+*v             v               -f-
+*m          m               m
+*d             d             
+*n          n               n
+*d‹             r‹             r‹
+*d‹d‹            d‹                 d‹
+*n‹          n‹               n‹
+*r‹             g, r‹, l‹            r‹, d‹, 0
+*l‹          l‹               l‹, œ‹
+*tø             tø, t             tø
+*rø          r               rø
+*s          c               s
+*k             k             k
+*g             g               x 
+*r          r               r
+*l              l              l, s_ 
+*mb         mb, b           b
+*nt            nt            t
+*nd‹         nd‹              d‹
+*ndø            ndø            dø
+*n˚         nj              j
+*n˙         nj              ˙
+*—(g)       —g              g
+*rk         k               rk
+*r±k         k               ›k
+*lg         lg              g
+*r‹k             k                k
+*-≤v-       -v-             -f-
+*-≤d-       -d-             
+*-≤t-       -t-             -t-
+*-Ùg-       -g-             -x-
+*-Ùk-       -k-             -k-
+*-Ùv-       -v-             -f-
+*-Ùt-       -t-             -t-
+*-iˆd-       -c-             -s-
+*-iˆt-       -c-             -c-
+
+Comments.
+PN *a > Toda a before -≤- in the 2nd syl.; before *-r-, *-r±-, *-l-, *-r_-; before -r‹- < *-r‹-.
+PN *t_ > Kota t after long vowels in trans. verbal bases??
+PN *l > Toda -s_ (auslaut), -l- (inlaut).
+PN *l‹ > Toda -œ‹- before *-V-v- (in verbal stems).
+PN *mb > Kota b in the *-C-V-mb- context.
+
+Reflexation of PN *-r‹-:
+*-r‹k- > Kota, Toda -k-.
+*-V-r‹-i- > Kota -l‹c-, Toda -d‹y-.
+*-a-r‹-Ù- > Toda ∞ (a in a few cases).
+DBINFO END
+field_list = PROTO-PRNUM,KOTA-DEDNUM
+field_alias[PRNUM] = South Dravidian etymology
+field_alias[NUMBER] = Number

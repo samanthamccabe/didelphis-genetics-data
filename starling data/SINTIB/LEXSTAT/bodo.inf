@@ -1,0 +1,9 @@
+field_alias[GAR] = Garo
+field_alias[GARNUM] = Garnum
+field_alias[BOD] = Bodo
+field_alias[BODNUM] = bodnum
+field_alias[DIM] = Dimasa
+field_list = NUMBER-RABNUM
+field_alias[RAB] = Rabha
+AliasSet = 1
+proto = \data\sintib\stibet

@@ -1,0 +1,10 @@
+proto = \data\sintib\stibet
+field_alias[HAK] = Haka
+field_alias[MAR] = Mara-Lakher
+field_alias[TID] = Tiddim
+field_alias[HMA] = Hmar
+field_alias[GAN] = Gangte
+field_alias[KHY] = Khyang
+AliasSet = 1
+field_list = NUMBER-TIDNUM
+field_alias[LSH] = Lushai

@@ -1,0 +1,34 @@
+PROTO = gndet.dbf
+field_alias[PROTO] = \1:Proto-Kui-Kuwi \2:Пракуи-куви
+AliasSet = 1
+field_alias[MEANING] = \1:Meaning \2:Значение
+field_alias[KUI] = \1:Kui \2:Куи
+field_alias[KUTTIA] = \1:Khuttia Kui \2:Кхуттия куи
+field_alias[KUWI_F] = \1:Kuwi (Fitzgerald) \2:Куви (Фитцджеральд)
+field_alias[KUWI_S] = \1:Kuwi (Schulze) \2:Куви (Шульце)
+field_alias[KUWI_SU] = \1:Sunkarametta Kuwi \2:Сункараметта куви
+field_alias[KUWI_P] = \1:Parja Kuwi \2:Парджа куви
+field_alias[KUWI_T] = \1:Tekriya Kuwi \2:Текрийя куви
+field_alias[KUWI_D] = \1:Dongriya Kuwi \2:Донгрийя куви
+field_alias[KUWI_MAH] = \1:Kuwi (Mahanti) \2:Куви (Маханти)
+field_alias[KUWI_ISR] = \1:Kuwi (Israel) \2:Куви (Израэль)
+field_alias[ADDITION] = \1:Additional forms \2:Дополнительные формы
+field_alias[NOTES] = \1:Notes \2:Комментарии
+field_alias[DEDNUM] = \1:Number in DED \2:Номер по DED
+field_list = PROTO-DEDNUM
+field_alias[PRNUM] = Gondwan etymology
+DBINFO START 1
+ The Kui-Kuwi database, subordinate to the Gondwan database (which is in its
+turn subordinate to the Common Dravidian database).
+
+    Database structure.
+    1. Protoform. The Proto-Kui-Kuwi reconstruction.
+    2. Meaning. The reconstructed Proto-Kui-Kuwi meaning.
+    3-12. Languages and dialects: Kui, Kuttia Kui, Kuwi (Fitzgerald), Kuwi 
+(Schulze), Kuwi (Sunkarametta), Kuwi (Parja Kondhs), Kuwi (Tekriya Kondhs),
+Kuwi (Dongriya dialect), Kuwi (Mahanti), Kuwi (Israel).
+    13. Derivatives.
+    14. Notes.
+    15. Number in DED.
+    16. Gondwan protoform. A link to the upper level Proto-Gondwan database. 
+DBINFO END

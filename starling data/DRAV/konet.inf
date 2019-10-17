@@ -1,0 +1,25 @@
+PROTO = gndet.dbf
+field_alias[PROTO] = \1:Konda \2:Конда
+AliasSet = 1
+field_alias[KONDA_BB] = \1:Konda (Burrow/Bhattacharya) \2:Конда (Бэрроу и Бхаттачарья)
+field_alias[ADDITION] = \1:Additional forms \2:Дополнительные формы
+field_alias[NOTES] = \1:Notes \2:Комментарии
+field_alias[DEDNUM] = \1:Number in DED \2:Номер по DED
+field_list = PROTO-DEDNUM
+field_alias[PRNUM] = Gondwan etymology
+DBINFO START 1
+ The Konda database, subordinate to the Gondwan database (which is in its
+turn subordinate to the Common Dravidian database).
+
+    Database structure.
+    1. Konda form (a single language, so no Proto-Konda reconstruction is 
+provided).
+    2. Meaning. The meaning in Konda.
+    3. According to Bhattacharya. The Konda form given by Bhattacharya.
+    4. Derivatives.
+    5. Notes.
+    6. Number in DED.
+    7. Gondwan protoform. A link to the upper level Proto-Gondwan database. 
+
+DBINFO END
+field_alias[MEANING] = Meaning

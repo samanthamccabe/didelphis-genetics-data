@@ -1,0 +1,32 @@
+PROTO = \data\cauc\caucet.dbf
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+field_alias[PROTO] = \1:Lak root\2:Лакский корень
+field_alias[PRNUM] = \1:North Caucasian etymology\2:СК этимология
+field_alias[MEANING] = \1:Meaning\2:Значение
+field_alias[LAK] = \1:Lak form\2:Лакская форма
+field_alias[COMMENT] = \1:Comments\2:Комментарий
+DBINFO START 1
+ The Lak part of the North Caucasian Etymological Dictionary.
+
+    Database structure.
+
+    1. Lak. The actual literary Lak form. No Proto-Lak reconstruction is given, because the existing Lak dialects are extremely close to each other and hardly justify an attempt of protolanguage reconstruction.
+    2. Meaning. The meaning of the form presented.
+    3. Comments. Various comments. The field rather frequently includes the evidence of the Khosrekh dialect, collected by several MSU expeditions. The dialect is very close to the literary language, but the recorded forms are frequently useful because they help to resolve some ambiguities of the traditional Lak orthography.
+    4. NC etymology. A link to the upper level North (East) Caucasian database.
+
+
+ 
+DBINFO END
+DBINFO START 2
+   Лакская часть севернокавказского этимологического словаря.
+
+    Структура базы данных
+
+    1. Лакский. Собственно лакская литературная форма. Лакские диалекты чрезвычайно близки друг к другу и пралакская реконструкция в принципе не нужна.
+    2. Значение. Значение приведенной формы. 
+    3. Комментарии. Различные примечания. Довольно часто поле включает данные хосрехского диалекта, собранные экспедициями МГУ. Этот диалект очень близок к литературному языку, но записанные формы часто позволяют разрешить некоторые двусмысленности традиционной лакской орфографии.
+    4. СК этимология. Отсылка к вышестоящей северно(восточно)кавказской базе. 
+DBINFO END
+field_list = PROTO-COMMENT

@@ -1,0 +1,23 @@
+PROTO = dravet.dbf
+field_alias[PROTO] = \1:Proto-North-Dravidian \2:Прасеверно-дравидийский
+AliasSet = 1
+field_alias[MEANING] = \1:Meaning \2:Значение
+field_alias[KUR] = \1:Kurukh \2:Курух
+field_alias[MLT] = \1:Malto \2:Малто
+field_alias[NOTES] = \1:Notes \2:Комментарии
+field_alias[ADDITION] = \1:Additional forms \2:Дополнительные формы
+field_alias[DEDNUM] = \1:Number in DED \2:Номер по DED
+field_alias[PRNUM] = Dravidian etymology
+field_list = PROTO-DEDNUM
+DBINFO START 1
+ The North Dravidian database, subordinate to the Common Dravidian database.
+
+    Database structure.
+    1. Protoform. The North Dravidian reconstructed protoform.
+    2. Meaning. The reconstructed meaning.
+    3-4. Languages: Kurukh, Malto.
+    5. Derivatives.
+    6. Notes (occasionally in Russian, still needing English translation).
+    7. Number in DED.
+    8. Dravidian protoform. Link to the upper level Common Dravidian database. 
+DBINFO END

@@ -1,0 +1,22 @@
+PIET = \DATA\IE\PIET.DBF
+field_alias[GER_MEAN] = \1:German meaning\2:Немецкое значение
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+field_alias[ROOT] = \1:Root\2:Корень
+field_alias[MEANING] = \1:English meaning\2:Английское значение
+field_alias[MATERIAL] = \1:Material\2:Материал
+field_alias[REF] = \1:References\2:Ссылки
+field_alias[PAGES] = \1:Pages\2:Страницы
+field_alias[PIET] = PIE database
+DBINFO START 1
+The database represents the text of J. Pokorny's "Indogermanisches Etymologisches W╙rterbuch", scanned and recognized by George Starostin (Moscow), who has also added the English meanings. The database was further refurnished and corrected by A. Lubotsky. Pokorny's text is given practically unchanged (only a few obvious typos were corrected), except for some rearrangement of the material. The numbers in the lemmata are given after the root (e.g. Pokorny's 1. \Ibher-\i appears as \Ibher-1\i) because automatic alphabetisation would otherwise too much affect the order of the lemmata. The links have been changed accordingly. 
+DBINFO END
+field_alias[GRAMMAR] = \1:Grammatical comments\2:Грамматический комментарий
+field_alias[COMMENTS] = \1:General comments\2:Общий комментарий
+field_alias[DERIVATIVE] = \1:Derivatives\2:Производные
+field_alias[SEEALSO] = \1:See also\2:См. также
+DBINFO START 2
+	База данных основана на "Indogermanisches Etymologisches W╙rterbuch" Ю. Покорного, отсканированном и распознанном Г. Старостиным, который также добавил английские переводы значений. Далее база была обработана и исправлена А. Лубоцким. Текст Покорного практически не менялся, за исключением нескольких очевидных опечаток. Номера в леммах даются после корня для удобства автоматической алфавитизации. Отсылки даются к индоевропейской базе, составленной на основе другого словаря - Вальде и Покорного - С. Николаевым.
+
+DBINFO END
+field_list = ROOT-PIET

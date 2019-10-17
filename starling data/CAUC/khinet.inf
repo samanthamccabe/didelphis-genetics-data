@@ -1,0 +1,28 @@
+PROTO = \data\cauc\caucet.dbf
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+field_alias[PROTO] = \1:Khinalug root\2:Хиналугский корень
+field_alias[PRNUM] = \1:North Caucasian etymology\2:СК этимология
+field_alias[MEANING] = \1:Meaning\2:Значение
+field_alias[KHI] = \1:Khinalug form\2:Хиналугская форма
+field_alias[COMMENT] = \1:Comments\2:Комментарии
+DBINFO START 1
+ The Khinalug part of the North Caucasian Etymological Dictionary.
+
+    Database structure.
+
+    1. Khinalug. The actual Khinalug form. No reconstruction of Proto-Khinalug is available, because there is only one dialect.
+    2. Meaning. The meaning of the Khinalug form presented.
+    3. Comments. Any comments, if available.
+    4. NC etymology. A link to the upper level North (East) Caucasian database. 
+DBINFO END
+DBINFO START 2
+   Хиналугская часть севернокавказского этимологического словаря.
+
+    Структура базы данных
+    1. Хиналугский. Собственно хиналугская форма. Прахиналугской реконструкции не имеется, поскольку существует всего один диалект.
+    2. Значение. Значение приведенной хиналугской формы.
+    3. Комментарии. 
+    4. СК этимология. Отсылка к вышестоящей северно(восточно)кавказской базе. 
+DBINFO END
+field_list = PROTO-COMMENT

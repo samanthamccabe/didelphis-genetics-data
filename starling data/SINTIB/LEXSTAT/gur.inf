@@ -1,0 +1,5 @@
+proto = \data\sintib\stibet
+field_alias[GUR] = Gurung
+field_alias[TAM] = Tamang
+field_alias[THA] = Thakali
+field_list = NUMBER-THANUM

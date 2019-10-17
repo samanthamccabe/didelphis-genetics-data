@@ -1,0 +1,29 @@
+field_alias[NUMBER] = \1:Number\2:Номер
+proto = \data\alt\koret.dbf
+AliasSet = 1
+field_alias[WORD] = \1:Word\2:Слово
+field_alias[PHN] = \1:Phyenyang\2:Пхеньян
+field_alias[PHNNUM] = Phyenyang->Koret
+field_alias[CHN] = \1:Chensando\2:Чонсандо
+field_alias[CHNNUM] = Chensando->Koret
+field_alias[PNM] = \1:Phyenyang-namdo\2:Пхеньян-намдо
+field_alias[PNMNUM] = Phyenyangnamdo ->Koret
+field_alias[KJN] = \1:Kyensando\2:Кенсандо
+field_alias[KJNNUM] = Kyensando->Koret
+field_alias[HMG] = \1:Hamgyengdo\2:Хамгендо
+field_alias[HMGNUM] = Hamgyengdo->Koret
+field_alias[CJD] = \1:Chejudo\2:Чеджудо
+field_alias[CJDNUM] = Chejudo->Koret
+field_alias[SEU] = \1:Seoul\2:Сеул
+field_alias[SEUNUM] = Seoul->Koret
+field_alias[KNW] = \1:Kanwendo\2:Канвондо
+field_alias[KNWNUM] = Kanwendo->Koret
+field_alias[AKO] = \1:Middle Korean\2:Среднекорейский
+field_alias[AKONUM] = MKor.->Koret
+DBINFO START 1
+	100wordlists of Korean dialects.
+DBINFO END
+DBINFO START 2
+	Стословные списки корейских диалектов.
+DBINFO END
+field_list = NUMBER-AKONUM

@@ -1,0 +1,302 @@
+AliasSet = 1
+field_alias[PROTO] = \1:Proto-Dravidian \2:è‡†§‡†¢®§®©·™®©
+field_alias[SDR] = \1:Proto-South Dravidian\2:è‡†Ó¶≠Æ§‡†¢®§®©·™®©
+field_alias[TEL] = \1:Proto-Telugu \2:è‡†‚•´„£„
+field_alias[KOGA] = \1:Proto-Kolami-Gadba \2:è‡†™Æ´†¨®-£†§†°†
+field_alias[GND] = \1:Proto-Gondi-Kui \2:è‡†£Æ≠§®-™„®
+field_alias[NDR] = \1:Proto-North Dravidian \2:è‡†·•¢•‡≠Æ-§‡†¢®§®©·™®©
+field_alias[BRA] = \1:Brahui \2:Å‡†Â„®
+field_alias[NOTES] = \1:Notes \2:äÆ¨¨•≠‚†‡®®
+field_alias[MEANING] = \1:Meaning \2:á≠†Á•≠®•
+proto = \data\nostr\nostret.dbf
+field_list = NUMBER-NOTES
+field_alias[PRNUM] = Nostratic etymology
+lookup[1] = \data\drav\ndret.dbf
+field_alias[NUMBER] = Number
+field_alias[SDRNUM] = South Dravidian etymology
+field_alias[TELNUM] = Telugu etymology
+field_alias[KOGANUM] = Kolami-Gadba etymology
+field_alias[GNDNUM] = Gondi-Kui etymology
+field_alias[NDRNUM] = North Dravidian etymology
+field_alias[BRANUM] = Brahui etymology
+DBINFO START 1
+\UThe Proto-Dravidian database
+
+\uThis is the main database for Dravidian etymological data. It contains a list of Proto-Dravidian reconstructions (generated according to the basic correspondence system as listed in A Dravidian Etymological Dictionary by T. Burrow and M. B. Emeneau, revised and significantly modified by G. Starostin) with reflexes in five intermediate proto-languages plus Brahui, each linked to its separate databases. Work on the database is still in progress.
+
+The basic structure for every intermediate Dravidian database is as follows:
+
+I: The intermediate protoform (e.g. Proto-South Dravidian, Proto-Pengo-Manda);
+II: The meaning of the protoform;
+III: Language fields (e.g. Tamil, Malayalam, Pengo, Kurukh, etc.);
+IV: Additional forms (derivatives that have not been listed in the main language fields);
+V: Notes;
+VI: Number in DED (a reference to the main corresponding etymology in DED).
+
+This structure is preserved throughout the database systems with only minor aberrations (thus, in the South Dravidian database the "additional forms" field, under the name of "language X derivates", is provided for every language because of the huge amount of data, etc.).
+
+	Phonetic correspondences between Dravidian languages (taken from
+G. S. Starostin's PhD thesis on comparative Dravidian phonology).
+Correspondences in table form only include consonantism.
+
+I. From Proto-Dravidian to Proto-South-Dravidian (PSDR), Telugu, Proto-Kolami-Gadba (PKG), Proto-Gondwan (PGn), Proto-North-Dravidian (PNDR) and Brahui.
+                                                                                                           
+Phoneme   PSDR        Telugu       PKG          PGn          PNDR                Brahui             
+\B*p-      \b*p-        p-      *p-       *p-        *p-     p-
+\B*-p-     \b*-p-       -p-     *-p-      *-p-       *-p-    -p-
+\B*b-      \b*b-⁄*v-    b-      *b-       *b-        *b-⁄*p-  p-
+\B*-bb-    \b*-bb-      -bb-    *-bb-     *-b-       *-p-    
+\B*v-      \b*v-        v-      *v-       *v-        *b-     b-
+\B*-vv-    \b*-v-       -v-     *-v-      *-v-       *-b-    -v-/-f
+\B*m-      \b*m-        m-      *m-       *m-        *m-     m-
+\B*-m(m)-  \b*-m-/*-mbu  -m-/-v-  *-m-      *-m-       *-m-    -m-/-b-
+\B*c-       \b*c-      c-       *c-      *c-, *s-  *c-       
+\B*˙-       \b*˙-      j-⁄c-   *˚-      *˙-                
+\B*s-       \b*s-      c-⁄s-   *s-      *s-      *c-       c-
+\B*-s-      \b*-s-     -s-      *-s-     *-s-     *-c-⁄*-s-  -s-
+\B*c±-       \b*∂-      c-       *c±-      *∂-      *c-       
+\B*-c±- = *-c-  \b*-c-    -c(c)-⁄-s-  *-c-   *-c-     *-c-      -sh-⁄-c-
+\B*-c±(c±)-   \b*-∂(∂)-                                       -c-⁄-s-
+\B*˙±-       \b*˚-      j-       *˚-      *˚-      *c-⁄*˚-  j-
+\B*-˙±˙±-     \b*-˚(˚)-  -j(j)-   *-˚-     *-˚-     -s-       
+\B*s±-       \b*0-⁄*s±-  0-       *s-⁄*c-  *s-      *c-       
+\B*j-       \b*j-      0-       *j-⁄*0-  *j-⁄*0-  *0-       0-
+\B*-j-      \b*-j-     -y-      *-j-     *-j-     *-j-      -y-
+\B*n±-       \b*n±-/*n-  n-       *n-/*0-  *n-      *n-/*0-  n-/d-
+\B*-d_-      \b*-r_-     -r_-      *-d_-/*-r_-  *-d_-    *-r-/*-d-/*-s-  -r(r)-/-s-
+\B*-t_(t_)-   \b*-t_-     -t‹(t‹)-, -tt-  *-t_-  *-t_-  *-t-  -t-
+\B*-r_-      \b*-r_-     -r_(r_)-   *-r_-     *-r_-     -r-       -r(r)-
+\B*-t\b‹\Bt\b‹-\B  \b*-t‹  -t‹t‹  *-t‹  *-t‹  *-t‹, *-d‹-  -t‹(t‹)-
+\B*-d\b‹-\B  \b*-d‹  -d‹  *-d‹  *-d‹, *-d_-  *-r‹, *-t‹  -r,  -t‹-, -r-
+\B*-d\b‹\Bd\b‹-\B  \b*-d‹d‹  -d‹d‹  *-d‹d‹  *-d‹d‹  *-r‹, *-t‹t‹-  -d‹d‹-, -t
+\B*-l\b‹\Bl\b‹-\B  \b*-l‹  -l(l)-, -l‹l‹  *-l‹-  *-l‹-  *-l-  -l(l)-, -l_h_-
+\B*-r\b‹-\B  \b*-r‹  -d‹, -r-  *-r‹  *-r‹  *-c-, *-s-,  *-r‹, *-r-  -r(r)-, -r‹,  -0-, -l_h_-
+\B*-n\b‹\Bn\b‹-\B  \b*-n‹  -n‹n‹  *-n‹-  *-n‹-  *-n-  *-n-
+\B*t-       \b*t-      t-       *t-      *t-      *t-      t-
+\B*-t[t]-   \b*-t-     -t(t)-   *-t-     *-t-     *-t-     -t-
+\B*d-       \b*d-      d-       *d-      *d-      *d-      t-
+\B*-d-      \b*-d-     -d-      *-d-     *-d-     *-d-     -d-
+\B*-dd-     \b*-dd-    -dd-     *-dd-?   *-dd-    *-t-     -dd-
+\B*-l-      \b*-l-     -l(l)-   *-l-     *-l-     *-l-     -l(l)-, -l_h_-
+\B*-r-      \b*-r-     -r-      *-r-     *-r-     *-r-     -r-
+\B*-n-      \b*-n-     -n(n)-   *-n-     *-n-     *-n-     -n(n)-
+\B*k-     \b*k-     k-, c-   *k-      *k-     *q-, *k-      x-, k-
+\B*-k[k]-  \b*-k-    -k(k)-   *-k-     *-k-    *-q-          
+\B*g-     \b*g-     g-       *k-      *k-     *g-, *q-, *k-  x-, g_h_-
+\B*-g-    \b*-g-    -g-      *-g-     *-g-    *-g-, *-k-, *-q-  -g-
+\B*-gg-   \b*-gg-   -gg-     *-g-     *-gg-                 
+\B*-¡-    \b*-¡-    -g-, -k-  *-j-,* -g-, *-k-  *-¡-  *-G-, *-k-  
+\B*-mb-   \b*-mb-    -m[b]-   *-mb-    *-mb-                
+\B*-mp-   \b*-mp-    -m[p]-   *-mp-    *-mp-                
+\B*-n˙±-   \b*-n˚-    -n˚-     *-n˚-    *-n˚-     *-n˚-, *-s-  -nz-
+\B*-nc±-   \b*-nc-    -nc-     *-nc-    *-c-      *-c-       
+\B*-nd_-   \b*-nr_-    -nd‹  *-nd_-  *-nd_-     *-nd-, *-d-  
+\B*-nt_-   \b*-nt_-                      *-t_-      *-s-       
+\B*-nd\b‹\B  \b*-nd‹  -nd‹  *-nd‹  *-nd‹  *-nr‹-, *-nd‹-  
+\B*-nt\b‹\B  \b*-nt‹  -nt‹  *-[n]t‹  *-[n]t‹-    
+\B*-nd-   \b*-nd-    -nd-     *-nd-    *-nd-                
+\B*-nt-   \b*-nt-    -nt-     *-nt-    *-[n]t-   *-t-       
+\B*-—(g)-  \b*-—-     -—-      *-—-     *-—-      *-—-, *-q-  
+\B*-—k-   \b*-—k-    -—k-     *-k-     *-—-      *-—G-      
+
+	II. From PSDR to daughter languages.
+                                                                                                              
+Phoneme    Tamil         Malayalam           Kota       Toda           Kannada             Kodagu          Tulu                
+\B*p-     \bp-     p-        p-   p-   p-, h-, 0-  p-        p-, h-
+\B*-p(p)-  \b-pp-   -pp-      -p-  -p-  -p(p)-   -p(p)-     -p(p)-
+\B*b-     \bp-     p-        b-   p-   b-       b-         b-
+\B*-bb-   \b-pp-, -vv-  -pp-             -bb-     -bb-       -bb-, -pp-
+\B*v-     \bv-     v-        v-   p-   b-       b-         b-
+\B*-v(v)-  \b-v(v)-  -v(v)-    -v-  -f-  -v(v)-   -v(v)-     -v(v)-, -b(b)-
+\B*m-     \bm-     m-        m-   m-   m-       m-         m-
+\B*-m(m)-  \b-m(m)-, -mp-  -m(m)-, -mp-  -m-, -b-  -m-, -b-  -m-, -mb-, -bb-, -v-, -g-  -m(m)-, -v-  -m(m)-, -g-
+\B*·-    \bc-     c-       c-      t-     c-, s-, t-  c-   c-, s-, t-
+\B*-·-   \b-c-    -s±-      -c-     -s-    -s-    -s-     -s-, -j-
+\B*˙-    \bc-     c-                      j-, c-          j-, c-
+\B*s-    \bc-     c-       c-      s-     s-     ·-      s-
+\B*-s-   \b-y-, -c-  -y-, -s±-, -c-  -s-, -y-  -s-, -y-  -s-  -s-, -y-  -s-, -j-
+\B*∂-    \bc-     c-       c-      t-     c-, t-  c-      c-, t-
+\B*-∂(∂)-  \b-cc-   -cc-             -∂-    -cc-   -cc-    -cc-
+\B*˚-    \bc-     c-       j-      s-     j-     j-      j-
+\B*-˚(˚)-  \b-cc-   -cc-     -j-            -jj-           
+\B*s±-    \b0-, ·-  0-       0-      0-     0-, c-  0-      0-, c-, s-, t-
+\B*-r_-   \b-r_-    -r_-      -r-     -r_-    -r_-    -r-     -r-, -d-, -j-
+\B*-t_(t_)-  \b-r_r_-   -r_r_-     -t-, -t_-  -t_-    -t(t)-,  -c(c)-  -t(t)-  -t(t)-, -c(c)-
+\B*-t\b‹-\B  \b-t‹t‹  -t‹t‹  -t‹  -t‹  -t‹t‹  -t‹t‹-  -t‹(t‹)-
+\B*-d\b‹-\B  \b-t‹  -t‹  -r‹  -r‹, -d‹  -d‹  -d‹-  -d‹-
+\B*-d\b‹\Bd\b‹-\B  \b-t‹t‹  -t‹t‹  -d‹  -t‹  -d‹d‹  -d‹d‹-  -d‹d‹-
+\B*-l\b‹-\B  \b-l‹l‹  -l‹l‹  -l-, -n‹  -œ‹, -l‹  -l(l)-,  -l‹l‹  -l‹l‹  -l(l)-,  -l‹l‹)-
+\B*-r\b‹-\B  \b-r‹  -r‹  -g-, -r‹, -r-,  -0-, -l‹, -y-  -d‹, -f-, -l‹,  -r‹,  -s‹,  -w-, -y-, -0-  -r‹  -l‹  -r-, -l‹-
+\B*-n\b‹-\B  \b-n‹n‹  -n‹n‹  -n‹, -r‹  -n‹, -l‹  -n‹n‹  -n‹n‹-  -n‹(n‹)-
+\B*t-    \bt-    t-    t-       t-            t-     t-    t-
+\B*-t-   \b-tt-  -tt-  -t-      -t-           -t(t)-  -t(t)-  -t(t)-
+\B*d-    \bt-    t-    d-       t-            d-     d-    d-
+\B*-d-   \b-t-   -t-   -d-      -f-          -d-    -d-   -d-
+\B*-dd-  \b-tt-  -tt-                         -dd-         -dd-
+\B*-l-   \b-l(l)-  -l(l)-  -l-, -l‹, -j-  -l-, -œ-, -s_-  -l(l)-  -l(l)-  -l(l)-, -r-
+\B*-r-   \b-r-   -r-   -r-      -r-, -›-, -s‹, -0-  -r-  -r-  -r-
+\B*n-    \bn-    n-    n-       n-            n-     n-    n-
+\B*-n-   \b-n_(n_)-  -n(n)-  -n-      -n-           -n-, -n‹  -n-  -n-, -n‹
+\B*k-    \bk-, c-    k-, c-  k-     k-     k-        k-     k-
+\B*-k-   \b-kk-      -kk-    -k-    -k-    -k(k)-    -k(k)-  -k(k)-
+\B*g-    \bk-        k-      g-     k-     g-        g-     g-
+\B*-g-   \b-k-       -k-     -g-    -x-    -g-       -g-    -g-
+\B*-gg-  \b-kk-      -kk-    -g-    -k-    -gg-      -gg-   -gg-
+\B*-¡-   \b-y-, -v-, -0-  -k-, -0-  -y-, -g-, -0-  -0-, -g-  -y-, -g-,  -0-  -g-, -y-  -g-
+\B*-mb-   \b-mp-  -mp-  -mb-, -b-  -b-    -mb-, -m-, -v-  -mb-  -mb-
+\B*-mp-   \b-pp-;  -mpu  -pp-; -mpu  -p-      -mp-, -mm-, -v-  -mm-  -v-
+\B*-n˚-   \b-·c-  -·c-,  -··-  -nj-  -˙-    -·j-        -·j-,  -··-  -·j-
+\B*-nc-   \b-·c-  -·c-          -∂-     -·c-               -··-,  -·c-
+\B*-nr_-   \b-n_r_-  -nn-  -nd_-, -r-  -d_-, -r_-  -nd-, -r_-  -nd-   -·j-, -j-
+\B*-nt_-   \b-n_r_-,  -t‹t‹-  -r_r_-      -nt-            -nt-
+\B*-nd\b‹\B  \b-n‹t‹  -n‹t‹;  -n‹  -nd‹, -r‹  -d‹, -r‹  -n‹d‹, -d‹  -n‹d‹,  -d‹  -n‹d‹-,  -d‹-
+\B*-nt\b‹\B -  \b-t‹t‹,  -n‹t‹  -t‹t‹  -t‹  -t‹  -n‹t‹, -t‹, -t‹t‹  -t‹  -n‹t‹-, -t‹-
+\B*-nd-   \b-nt-  -nt-  -nd-    -d-     -nd-, -d-   -nd-   -nd-, -d-
+\B*-nt-   \b-tt-,  -nt-  -nt-       -t-     -nt-, -t-, -tt-      -nt-, -tt-
+\B*-—-    \b-—k-  -——-  -—g-    -g-     -—g-, -g-   -—g-   -——-,  -—g-, -g-
+\B*-—k-   \b-—k-,  -kk-  -—k-  -k-  -k-     -—k-        -k-    -—k-
+
+	III. From PKG to daughter languages.
+	                                                                                                      
+Phoneme  Kolami     Kinwat Kolami     Naikri       Naiki        Parji       Ollari      Salur        Pottangi    
+\B*p-  \bp-      p-   p-     p-     p-     p-   p-      p-
+\B*-p-  \b-p(p)-  -p-  -p(p)-  -p(p)-  -p(p)-  -p-  -p(p)-  -p-
+\B*b-  \bb-, p-  b-, p-  b-, p-  b-     b-     b-   b-      b-
+\B*m-  \bm-      m-   m-     m-     m-     m-   m-      m-
+\B*-m-  \b-m(m)-       -m(m)-  -m(m)-  -m(m)-  -m-  -m(m)-  -m-
+\B*v-  \bv-      v-   v-     v-     v-     v-   v-      v-
+\B*-v-  \b-v(v)-       -v(v)-  -v(v)-  -v(v)-  -v-  -v(v)-  -v-
+\B*c-    \bs-     c-     s-     s-    ·-     s-    c-     s-
+\B*-c-   \b-s-    -c-    -s-    -c(c)-  -·-    -s-   -c-    
+\B*c±-    \bs-     c-     c-, s-, s±-  c-, s-  ·-  s-    c-     s-
+\B*˚-    \bs-, z-  j-     j-     j-, s-  j-     j-    j-     j-
+\B*s-    \bs-     s-     s-     s-    ·-     s-    s-     s-
+\B*-s-   \b-s-    -s-    -s-    -s-   -·-    -s-   -c-    -s-
+\B*-t_-   \b-t-    -t-    -t-    -t-   -t-    -t‹  -t{U+00B7}-  -t‹-
+\B*-d_-   \b-d-    -d-    -d-    -d-   -d-    -y-   -y-    -y-
+\B*-r_-   \b-r(r)-  -r(r)-  -r(r)-  -r(r)-  -r(r)-  -r-   -r(r)-  -r-
+\B*-t\b‹-\B  \b-t‹t‹  -t‹t‹  -t‹t‹  -t‹t‹  -t‹t‹  -t‹  -t‹(t‹)-  -t‹-
+\B*-d\b‹-\B  \b-d‹  -r‹  -r‹  -r‹-  -d‹-  -r-  -r-  -r-
+\B*-d\b‹\Bd\b‹-\B  \b-d‹d‹  -d‹d‹  -d‹d‹    -d‹d‹-    -d‹d‹-  
+\B*-r\b‹-\B  \b-r-  -r-   -r-    -0-, -y-, -r-, -l-  -r‹  -r‹  -d‹-  -r‹-
+\B*-l\b‹-\B  \b-l(l)-  -l-  -l‹  -y-, -l‹-  -l(l)-  -l-  -(l)l-  -l-
+\B*-n\b‹-\B  \b-n-  -n-   -n-    -n-     -n-  -n‹  -n-  -n-
+\B*t-    \bt-     t-     t-     t-      t-    t-   t-     t-
+\B*-t-   \b-t(t)-  -t-    -t(t)-  -t(t)-  -t(t)-  -t-  -t(t)-  -t-
+\B*d-    \bd-     d-     d-     d-      d-    d-   d-     d-
+\B*-d-   \b-d-    -d-    -d-    -d-     -d-   -d-  -d-    -d-
+\B*n-    \bn-     n-     n-     0-, n-  n-    n-   n-     n-
+\B*-n-   \b-n(n)-  -n-    -n(n)-  -n(n)-  -n(n)-  -n-  -n(n)-  -n-
+\B*k-    \bk-     k-     k-     k-      k-    k-   k-     k-
+\B*-k-   \b-k(k)-  -k-    -k(k)-  -k(k)-  -k(k)-  -k-  -k(k)-  -k-
+\B*g-    \bg-     g-     g-     g-      g-    g-   g-     g-
+\B*-g-   \b-g(g)-  -g-    -g(g)-  -g(g)-  -g(g)-  -g-  -g(g)-  -g-
+\B*-mb-  \b-mb-    -mb-  -mb-   -mb-   -mb-   -mb-  -mb-    
+\B*-mp-  \b-m-     -mp-  -pp-          -pp-        -mp-    -mp-
+\B*-n˚-  \b-nj-    -nj-  -nj-   -nj-   -·-    -nj-  -nj-    
+\B*-nc-  \b        -nc-                -c-         -nc-    
+\B*-nd_-  \b-d-     -d-  -d-    -d-    -nd-   -nd‹  -nd‹-  
+\B*-nd\b‹\B  \b-nd‹  -nd‹  -nd‹  -nd‹  -nd‹  -nd‹  -nd‹-  -nd‹-
+\B*-nt\b‹\B  \b-t-  -nt-  -t-  -t-    -nd‹,  -nt‹  -nd‹-  -nd‹-  
+\B*-nd-  \b-nd-    -nd-  -nd-   -nd-   -nd-   -nd-  -nd-    -nd-
+\B*-nt-  \b-t-     -nt-  -t-    -t-    -t-         -nt-    
+\B*-—-  \b-—g-    -—g-  -—g-   -—g-   -—g-   -—g-  -—g-    -—g-
+
+	IV. From PGn to daughter languages.
+
+Phoneme  Betul Gondi  Maria Gondi  Koya Gondi  Konda  Pengo  Manda  Kui        Kuwi [Fitzgerald]
+\B*p-     \bp-   p-     p-    p-     p-    p-     p-    p-
+\B*-p-    \b-p-  -p-    -p-   -p-    -p-   -p-    -p-, -b-  -p(p)-
+\B*b-     \bb-   b-     b-    b-     b-    b-     b-, p-  b-
+\B*-b-    \b-b-  -b-    -b-   -b-    -b-   -b-    -b-,-p-  -b-
+\B*m-     \bm-   m-     m-    m-     m-    m-     m-    m-
+\B*-m(m)-  \b-m-  -m-    -m-   -m-    -m-   -m-    -m-, -mb-  -m-
+\B*v-     \bw-, 0-  v-    v-    v-     v-    v-     v-    v(w)-
+\B*-v(v)-  \b-w-  -v-    -v-   -v-    -v-   -v-    -g-   -v-
+\B*-d_-   \b-r(r)-  -r‹-, -h_-  -r(r)-  -r_-  -z-, -s-  -y-, -s-  -j-,  -R-, -r-  -(i)y-, -j-, -r-
+\B*-t_-   \b-t(t)-  -t(t)-  -t(t)-  -R-   -c-, -s-  -c-, -s-  -c-,  -h-  -c-, -h-
+\B*-r_-   \b-r-   -r-   -r-   -r_-   -r-    -r-    -r-    -r-
+\B*-t\b‹-\B  \b-t‹,  -t-  -t‹  -t‹  -t‹  -t‹  -t‹-  -t‹-  -t-
+\B*-d\b‹-\B  \b-d‹,  -d-  -d‹  -d‹  -d‹  -d‹  -d‹-  -d‹-  -d-
+\B*-d\b‹\Bd\b‹-\B  \b-dd-  -d‹    -d‹  -d‹  -d‹-  -d‹-  -dd-
+\B*-r\b‹-\B  \b-r‹  -r‹  -r‹  -r‹  -r‹  -r‹  -r‹-  -r‹-
+\B*-l\b‹-\B  \b-r‹,  -l-  -r‹,  -l-, -l‹  -r‹,  -l-  -l-, -r‹  -l-, -r‹  -l-, -r‹-  -l-  -r-
+\B*-n\b‹-\B  \b-n-  -n-  -r‹  -n‹, -r‹  -n‹  -n‹  -n‹-  -n‹-
+\B*t-  \bt-     t-     t-    t-     t-    t-     t-, t‹, d-  t-, c-
+\B*-t-  \b-t-    -t-    -t-   -t-    -t-   -t-    -t-    -t(t)-
+\B*d-  \bd-     d-     d-    d-     d-    d-     d-, d‹  d-, j-
+\B*-d-  \b-d-    -d-    -d-   -d-    -d-   -d-    -d-    -d-
+\B*n-  \bn-     n-     n-    n-     n-    n-     n-     n-, l-
+\B*-n-  \b-n-    -n-    -n-   -n-    -n-   -n-    -n-    -n(n)-
+\B*-r-  \b-r‹, -r-  -r-  -r-  -r-  -r-   -r-    -r-    -r(r)-
+\B*-l-  \b-l-    -l-    -l-   -l-    -l-   -l-    -l-, -d‹  -l(l)-
+\B*k-  \bk-     k-     k-    k-     k-    k-     k-, g-  k-
+\B*-k-  \b-k-    -k-    -k-   -k-    -k-   -k-    -k-    -k(k)-
+\B*g-  \bg-     g-     g-    g-     g-    g-     g-, k-  g-
+\B*-g-  \b-g-    -g-    -g-   -g-    -g-   -g-    -g-    -g-
+\B*-¡-  \b-y-    -y-    -y-   -g-    -g-   -g-    -g-    -y-
+\B*-mb-  \b-m-   -m(m)-  -m(m)-  -m-    -m-    -mb-   -mb-  -mb-
+\B*-mp-  \b                    -mp-                      
+\B*-n˚-  \b-nj-  -nj-   -nj-   -nz-   -nj-   -nj-   -nj-  -nj-
+\B*-nc-  \b             -c-    -s-                       -nc-
+\B*-nd_-  \b-nd-  -nd-   -nd‹  -nr_-  -nj-  -nj-   -nj-  -nj-
+\B*-nd\b‹-\B  \b-nd‹  -nd‹  -nd‹  -nd‹  -nd‹  -nd‹-  -nd‹-  -nd-
+\B*-nt\b‹-\B  \b-t‹  -t‹  -t‹  -t‹, -n‹t‹  -t‹    -t‹t‹-  -nt-
+\B*-nd-  \b      -nd-   -nd-   -nd-   -nd-   -nd-   -nd-  -nd-
+\B*-nt-  \b      -nd-   -t-    -t-, -nt-  -t-         -t-  -nt-
+\B*-—-   \b-ng-         -—-    -—-    -—-    -—g-   -ng-  -ng-
+
+                                                                                                
+Phoneme       Proto-Gondi     Konda       Proto-Pengo-Manda  Proto-Kui-Kuwi
+\B*c-          \b*s-          s-          *s-           *c-
+\B*˙-          \b*˚-          s-          *s-           *s-
+\B*s-          \b*s-          s-          *s-           *s-
+\B*∂-          \b*c-          s-          *c-           *c-
+\B*˚-          \b*˚-          z-          *˚-           *˚-
+
+	V. From PNDR to daughter languages.
+
+Phoneme                  Kurukh          Malto            
+\B*p                      \bp-, -p(p)-     p
+\B*b                      \bb-, -b(b)-     b-, -w-
+\B*m                      \bm-, -m(m)-     m
+\B*t                      \bt-, -t(t)-     t
+\B*d                      \b-d(d)-         d-, -th-, -d-, -th
+\B*n                      \bn-, -n(n)-     n, l-
+\B*r                      \b-r(r)-         r
+\B*l                      \b-l(l)-         l
+\B*k                      \bk-, kh-, -k(k)-  k
+\B*g                      \bg              g
+\B*q                      \bx              q-, -q-/-g‹-
+\B*-G-                    \b-kh-, -kkh-    -q-
+\B*-n˚-                   \b-nj-           -nj-
+\B*-nd\b‹\B           \b-n‹d‹-  -nd‹-
+\B*-nr\b‹\B           \b⁄r‹    -n_r‹-
+\B*-nd-                   \b-nd-           -nd-
+\B*-—-                    \b-—g-           -n_g-
+\B*-—G-                   \b-—g-           -(n)q-
+
+	VI. An approximate scheme of development of the PDR basic root/stem structure.
+
+	a) Verbal roots:
+
+Pre-PDR           PDR                 PKG & PGn       South Dravidian (exc. for Tamil)     Tamil         
+*kit-  *kitt-       kitt-        kitt-       kitt-
+*kid-  *kidd-       kidd-        kidd-       kitt-
+*k≈t-,  *k≈d-s-  *k≈t-  k≈t-        k≈t-        k≈tt-
+*k≈d-    *k≈d-     k≈d-         k≈d-        k≈tt-
+*kit-a±-, *k≈t-a±-\B  \b*kid-a- (*kId-a-?)  kid-/kdi-  kId-a-  kit-a-
+*kid-a±-, *k≈d-a±-  *kid-a- (*kId-a-?)  kid-/kdi-  kId-a-  kit-a-
+
+	b) Nominal roots:
+
+Pre-PDR                  PDR                  PKG & PGn         South Dravidian (exc. for Tamil)       Tamil             
+*kit-, *ki±t-ai  *kitt-(ai)  kitt-      kitt-(ai)     kitt-ai
+*kid-, *ki±d-ai  *kidd-(ai)  kid(d)-\H \h   kidd-(ai)     kitt-ai
+*k≈t-, *k≈±t-ai  *k≈t-(ai)  k≈t-        k≈t-(ai)      k≈tt-ai
+*k≈d-, *k≈±d-ai  *k≈d-(ai)  k≈d-        k≈d-(ai)      k≈t-ai
+*kit-a±i, *kid-a±i, *k≈t-a±i, *k≈d-a±i  *kid-ai (*kId-ai?)  kid-  kId-ai  kIt-ai
+
+
+
+DBINFO END

@@ -1,0 +1,30 @@
+PROTO = dravet.dbf
+field_alias[PROTO] = \1:Proto-Gondi-Kui \2:Прагонди-куи
+AliasSet = 1
+field_alias[MEANING] = \1:Meaning \2:Значение
+field_alias[GON] = \1:Proto-Gondi \2:Прагонди
+field_alias[KON] = \1:Konda \2:Конда
+field_alias[PEM] = \1:Proto-Pengo-Manda \2:Прапенго-манда
+field_alias[KUI] = \1:Proto-Kui-Kuwi \2:Пракуи-куви
+field_alias[NOTES] = \1:Notes \2:Комментарии
+field_alias[COR] = \1:Notes on correspondences \2:Комментарии к соответствиям
+field_list = PROTO-GON,KON,PEM,KUI,NOTES,COR
+field_alias[PRNUM] = Dravidian etymology
+DBINFO START 1
+ The Gondwan (Gondi-Kui) database, subordinate to the Common Dravidian
+database. Since the Gondwan group of Dravidian consists of several closely linked "pairings" of languages, this database mostly contains intermediate reconstructions.
+
+    Database structure. 
+    1. Protoform. The Proto-Gondwan reconstruction.
+    2. Meaning. The reconstructed meaning.
+    3. Gondi protoform. The Proto-Gondi form and a link to the Gondi database.
+    4. Konda form. The reflex of Proto-Gondwan in Konda, as well as a link
+to the separate Konda database.
+    5. Pengo-Manda protoform. The Proto-Pengo-Manda form and a link to the
+separate Pengo-Manda database.
+    6. Kui-Kuwi protoform. The Proto-Kui-Kuwi form and a link to the separate
+Kui-Kuwi database.
+    7. Notes.
+    8. Dravidian protoform. A link from Gondwan to the upper level Common
+Dravidian database.
+DBINFO END

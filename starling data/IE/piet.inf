@@ -1,0 +1,43 @@
+refer = \data\ie\pokorny
+slav = \data\ie\vasmer
+PROTO = \data\nostr\nostret.dbf
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+field_alias[PROTO] = \1:Proto-IE\2:ПраИЕ
+field_alias[PRNUM] = Nostratic etymology
+field_alias[MEANING] = \1:Meaning\2:Англ. значение
+field_alias[RUSMEAN] = \1:Russ. meaning\2:Значение
+field_alias[REFERNUM] = Pokorny
+field_alias[HITT] = \1:Hittite\2:Хеттский
+field_alias[IND] = \1:Old Indian\2:Др.-индийский
+field_alias[AVEST] = \1:Avestan\2:Авестийский
+field_alias[IRAN] = \1:Other Iranian\2:Другие иранские
+field_alias[ARM] = \1:Armenian\2:Армянский
+field_alias[GREEK] = \1:Old Greek\2:Др.-греческий
+field_alias[SLAV] = \1:Slavic\2:Славянские
+field_alias[SLAVNUM] = Vasmer
+field_alias[BALT] = \1:Baltic\2:Балтийские
+field_alias[BALTNUM] = Baltic etymology
+field_alias[GERM] = \1:Germanic\2:Германские
+field_alias[GERMNUM] = Germanic etymology
+field_alias[LAT] = \1:Latin\2:Латинский
+field_alias[ITAL] = \1:Other Italic\2:Другие италийские
+field_alias[CELT] = \1:Celtic\2:Кельтские
+field_alias[ALB] = \1:Albanian\2:Албанский
+field_alias[TOKH] = \1:Tokharian\2:Тохарский
+field_alias[REFER] = \1:References\2:Ссылки
+field_alias[COMMENT] = \1:Comments\2:Комментарии
+DBINFO START 1
+
+	The Indo-European database, compiled on the basis of Walde-Pokorny's dictionary by S. L. Nikolayev. The Hittite and Tokharian reflexes were added by S. Starostin from the dictionaries of Friedrich, Tischler and Adams. As for subordinate databases: only Baltic and Germanic are ready so far, but the Slavic protoforms are directly linked to Vasmer's on-line etymological dictionary (that acts therefore as a Slavic etymological database). All etymologies are also linked - whenever it is possible - to Pokorny's on-line etymological dictionary.
+DBINFO END
+DBINFO START 2
+	Индоевропейская база данных, составленная на основе словаря Вальде-Покорного С. Л. Николаевым. Хеттские и тохарские рефлексы были добавлены С. А. Старостиным из словарей Фридриха. Тишлера и Адамса. Что касается подчиненных баз, к настоящему времени готовы только балтийская и германская, но славянские праформы напрямую связаны с онлайновым словарем Фасмера. Все этимологии также привязаны - там, где это возможно - к онлайновому словарю Покорного.
+
+	The Indo-European database, compiled on the basis of Walde-Pokorny's dictionary by S. L. Nikolayev. The Hittite and Tokharian reflexes were added by S. Starostin from the dictionaries of Friedrich, Tischler and Adams. As for subordinate databases: only Baltic and Germanic are ready so far, but the Slavic protoforms are directly linked to Vasmer's on-line etymological dictionary (that acts therefore as a Slavic etymological database). All etymologies are also linked - whenever it is possible - to Pokorny's on-line etymological dictionary.
+
+DBINFO END
+field_list = PROTO-RUSMEAN,HITT-SLAV,BALT,GERM,LAT-COMMENT
+field_alias[ROM] = Latin
+field_alias[MIX] = Albanian
+lookup[1] = c:\data\ie\germet.dbf

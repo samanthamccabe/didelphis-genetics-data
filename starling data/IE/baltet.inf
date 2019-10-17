@@ -1,0 +1,19 @@
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+field_alias[PROTO] = \1:Proto-Baltic\2:Прабалтийский
+field_alias[MEANING] = \1:Meaning\2:Значение
+field_alias[PINUM] = IE etymology
+field_alias[OLITH] = \1:Old Lithuanian\2:Старолитовский
+field_alias[LITH] = \1:Lithuanian\2:Литовский
+field_alias[LETT] = \1:Lettish\2:Латышский
+field_alias[OPRUS] = \1:Old Prussian\2:Древнепрусский
+field_alias[NOTES] = \1:Comments\2:Комментарии
+DBINFO START 1
+	The Baltic database, compiled by S. Nikolayev and subordinate to the Proto-Indo-European database.
+DBINFO END
+DBINFO START 2
+	Балтийская база данных, составленная С. Л. Николаевым и подчиненная общеиндоевропейской базе данных.
+DBINFO END
+field_list = PROTO-NOTES
+PROTO = piet.dbf
+field_alias[PRNUM] = Indo-European etymology

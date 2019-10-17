@@ -1,0 +1,14 @@
+proto = \data\sintib\stibet
+field_alias[KON] = Konyak
+field_alias[PHO] = Phom
+field_alias[YON] = Yogli
+field_alias[CHA] = Chang
+field_alias[CHANUM] = Chanum
+field_alias[KHI] = Khiamngan
+field_alias[KHINUM] = Khinum
+field_alias[KNN] = Konyak-D
+field_alias[KNNNUM] = knnnum
+field_alias[NOC] = Nocte
+field_alias[WAN] = Wancho
+field_alias[YOG] = Yogli
+field_list = NUMBER-WANNUM

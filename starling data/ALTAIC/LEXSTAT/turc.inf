@@ -1,0 +1,52 @@
+field_alias[NUMBER] = \1:Number\2:Номер
+proto = \data\alt\turcet.dbf
+AliasSet = 2
+field_alias[WORD] = \1:Word\2:Слово
+field_alias[ATU] = \1:Old Turkic\2:Древнетюркский
+field_alias[TRK] = \1:Turkish\2:Турецкий
+field_alias[TAT] = \1:Tatar\2:Татарский
+field_alias[UZB] = \1:Uzbek\2:Узбекский
+field_alias[UIG] = \1:Uighur\2:Уйгурский
+field_alias[SJG] = \1:Sary-Yughur\2:Сарыюгурский
+field_alias[AZB] = \1:Azeri\2:Азербайджанский
+field_alias[TRM] = \1:Turkmen\2:Туркменский
+field_alias[HAK] = \1:Khakassian\2:Хакасский
+field_alias[CHV] = \1:Chuvash\2:Чувашский
+field_alias[JAK] = \1:Yakut\2:Якутский
+field_alias[TUV] = \1:Tuva\2:Тувинский
+field_alias[KRG] = \1:Kirghiz\2:Киргизский
+field_alias[BAS] = \1:Bashkir\2:Башкирский
+field_alias[BLK] = \1:Balkar\2:Балкарский
+field_alias[GAG] = \1:Gagauz\2:Гагаузский
+field_alias[KRM] = \1:Karaim\2:Караимский
+field_alias[KLP] = \1:Karakalpak\2:Каракалпакский
+field_alias[SAL] = \1:Salar\2:Саларский
+DBINFO START 1
+  100wordlist of Turkic languages.
+DBINFO END
+DBINFO START 2
+  100словный список тюркских языков.
+DBINFO END
+ 
+field_alias[TRKNUM] = Turk.->Turcet
+field_alias[TATNUM] = Tat.->Turcet
+field_alias[UZBNUM] = Uzb.->Turcet
+field_alias[UIGNUM] = Uigh.->Turcet
+field_alias[SJGNUM] = SYu->Turcet
+field_alias[AZBNUM] = Az.->Turcet
+field_alias[TRMNUM] = Turkm.->Turcet
+field_alias[HAKNUM] = Khak.->Turcet
+field_alias[CHVNUM] = Chuv.->Turcet
+field_alias[JAKNUM] = Yak.->Turcet
+field_alias[TUVNUM] = Tuva->Turcet
+field_alias[KRGNUM] = Kirgh.->Turcet
+field_alias[NOG] = \1:Noghai\2:Ногайский
+field_alias[NOGNUM] = Nog.->Turcet
+field_alias[BASNUM] = Bash.->Turcet
+field_alias[BLKNUM] = Balk.->Turcet
+field_alias[GAGNUM] = Gag.->Turcet
+field_alias[KRMNUM] = Krm.->Turcet
+field_alias[KLPNUM] = KKalp.->Turcet
+field_alias[ATUNUM] = OTrc.->Turcet
+field_alias[SALNUM] = Sal.->Turcet
+field_list = NUMBER-SALNUM

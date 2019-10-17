@@ -1,0 +1,18 @@
+PROTO = dravet.dbf
+field_alias[PROTO] = \1:Brahui \2:Брахуи
+AliasSet = 1
+field_alias[MEANING] = \1:Meaning \2:Значение
+field_alias[ADDITION] = \1:Additional forms \2:Дополнительные формы
+field_alias[DEDNUM] = \1:Number in DED \2:Номер по DED
+field_list = PROTO-DEDNUM
+field_alias[PRNUM] = Dravidian etymology
+DBINFO START 1
+ The database on Brahui, subordinate to the Common Dravidian database.
+
+    Database structure.
+    1. Brahui. A single language, so no reconstruction is provided.
+    2. Meaning. The meaning of the Brahui form.
+    3. Derivatives. Available morphological derivates of the root.
+    4. Number in DED.
+    5. Dravidian protoform. Link to the upper level common Dravidian database.
+DBINFO END

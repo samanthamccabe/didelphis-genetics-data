@@ -1,0 +1,17 @@
+proto = \data\sintib\stibet
+field_alias[TAN] = Tangkhul
+field_alias[YIM] = Yimchungrò
+field_alias[KON] = Konyak
+field_alias[PHO] = Phom
+field_alias[YON] = Yogli
+field_alias[DIM] = Dimasa
+field_alias[LUS] = Lushai
+field_alias[MAN] = Manipuri
+field_alias[MIK] = Mikir
+field_alias[STI] = Sin-TiB
+field_alias[CHA] = Chang
+field_alias[CHANUM] = Chanum
+field_alias[KONN] = Kon-N
+field_alias[KHI] = Khiamngan
+field_alias[KHINUM] = Khinum
+field_list = NUMBER-MANNUM

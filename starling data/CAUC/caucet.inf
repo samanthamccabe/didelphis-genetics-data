@@ -1,0 +1,58 @@
+PROTO = \data\sinocauc\sccet.dbf
+field_list = PROTO-NAKH,AAND,CEZ,LAK,DARG,LEZG,KHIN,ABAD,COMMENT
+field_alias[NUMBER] = Number
+AliasSet = 1
+field_alias[PROTO] = Proto-North Caucasian
+field_alias[PRNUM] = Sino-Caucasian etymology
+field_alias[MEANING] = Meaning
+field_alias[NAKH] = Proto-Nakh
+field_alias[NAKHNUM] = > Nakh
+field_alias[AAND] = Proto-Avaro-Andian
+field_alias[AANDNUM] = > Avaro-Andian
+field_alias[CEZ] = Proto-Tsezian
+field_alias[CEZNUM] = > Tsezi
+field_alias[LAK] = Proto-Lak
+field_alias[LAKNUM] = > Lak
+field_alias[DARG] = Proto-Dargwa
+field_alias[DARGNUM] = > Dargwa
+field_alias[LEZG] = Proto-Lezghian
+field_alias[LEZGNUM] = > Lezghian
+field_alias[KHIN] = Proto-Khinalug
+field_alias[KHINNUM] = > Khinalug
+field_alias[ABAD] = Proto-West Caucasian
+field_alias[ABADNUM] = > West Caucasian
+field_alias[COMMENT] = Notes
+DBINFO START 1
+This is the database published as S. L. Nikolayev, S. A. Starostin, "A North
+Caucasian Etymological Dictionary", Moscow 1994 (excluding the preface and
+the indices).
+
+    Database structure. 
+    1. Protoform. The reconstructed Proto North Caucasian form (often equal to 
+Proto East Caucasian, in cases when no West Caucasian reflex is present).
+    2. Meaning. The reconstructed meaning of the PNC form.
+    3. Nakh protoform. The Proto-Nakh form in S. Nikolayev's (modified Imnaishvili)
+reconstruction. The field is at the same time a link to the Nakh database.
+    4. Avaroandian protoform. There are in fact no Avaroandian protoforms available.
+The field normally contains the Proto-Andian forms (in somewhat modified Gudava's 
+reconstructions), from which the Avar forms are usually deducible. In some cases - 
+when we only have an Avar form, without Andian matches - the protoform presented is
+a mere construct (an idea of what the Andian protoform would look like if there were
+actual Andian reflexes). The field is at the same time a link to the Avaroandian
+database.
+    5. Tsezian protoform. The Proto-Tsez form in S. Nikolayev's reconstruction, at the
+same time - a link to the Tsezian database.
+    6. Lak form. The actual Lak form (no Proto-Lak reconstruction is presented, nor
+is it necessary because of extreme closeness of Lak dialects), as well as a link
+to the Lak database.
+    7. Dargwa protoform. The Proto-Dargwa form in S. Nikolayev's reconstruction, at the
+same time a link to the Dargwa database.  
+    8. Lezghian protoform. The Proto-Lezghian form in S. Starostin's reconstruction, as
+well as a link to the Lezghian database.
+    9. Khinalug form. The actual Khinalug form (no Proto-Khinalug reconstruction is
+available, and is hardly possible because there is only one spoken dialect), and a 
+link to the Khinalug database.
+    10. Abkhazo-Adyghe protoform. The Proto West Caucasian form in S. Starostin's
+reconstruction, and a link to the West Caucasian (Abkhazo-Adyghe) database.
+    11. Comments. All sorts of explanatory remarks.
+DBINFO END

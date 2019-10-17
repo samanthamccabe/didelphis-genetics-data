@@ -1,0 +1,97 @@
+DOC = \data\china\doc.dbf
+STIBET = \data\sintib\stibet.dbf
+AliasSet = 1
+field_alias[GO] = \1:Go-on\2:Го-он
+field_alias[NUMBER] = \1:Number\2:Номер
+field_alias[CHARACTER] = \1:Character\2:Иероглиф
+field_alias[FANQIE] = \1:Fanqie\2:Фаньце
+field_alias[MODERN] = \1:Modern (Beijing) reading\2:Современное (пекинское) чтение
+field_alias[KANON] = \1:Kan-on\2:Кан-он
+field_alias[JAP] = \1:Japanese reading\2:Японское чтение
+field_alias[JIANCHUAN] = \1:Jianchuan Bai\2:Цзяньчуань Бай
+field_alias[DALI] = \1:Dali Bai\2:Дали Бай
+field_alias[BIJIANG] = \1:Bijiang Bai\2:Бицзян Бай
+field_alias[VIET] = \1:Vietnamese reading\2:Вьетнамское чтение
+field_alias[DOC] = \1:Dialectal data\2:Диалектные данные
+field_alias[SHIJING] = \1:Shijing\2:Шицзин
+field_alias[SHUOWEN] = \1:Shuowen gloss\2:Толкование по Шовэнь
+field_alias[MEANING] = \1:Translation\2:Перевод
+field_alias[COMMENT] = \1:Comments\2:Комментарии
+field_alias[KARLGREN] = \1:Karlgren code\2:Код по Карлгрену
+field_alias[STIBET] = \1:Sino-Tibetan etymology\2:Синотибетская этимология
+DBINFO START 2
+  База данных с древнекитайскими реконструкциями. Она была начата в 1991 г. и с тех пор постепенно - хотя довольно медленно - пополняется. В настоящий момент она содержит достаточную информацию приблизительно для 4000 иероглифов.
+
+    Структура базы данных
+
+    1. Иероглиф. Содержит иероглифы в кодировке Big5. Они могут изображаться как картинки или же как шрифтовые символы, если в Вашем браузере установлены китайские шрифты и если вы выберете в меню параметров "графика - как шрифты". 
+    Если на Вашем компьютере установлена какая-нибудь система китайского ввода, Вы сможете также искать иероглифы - но не забудьте установить в меню опцию "графика - как шрифты".
+
+    2. Фаньце. Содержит разрезания фаньце из Гуанъюня. Поле пока довольно  слабо заполнено.
+
+    3. Современное (пекинское) чтение. Приводится для большинства иероглифов.
+
+    4. Среднекитайское чтение. Чтения словаря "Цеюнь" в моей реконструкции (Старостин 1989).
+
+    5. Древнекитайское чтение. Древнекитайское чтение периода раннего Чжоу в моей реконструкции (Старостин 1989).
+
+    6. Японское чтение. Японские (онные и кунные) чтения; для большинства  иероглифов пока не введены.
+
+    7. Вьетнамское чтение. Синовьетнамские чтения, приведенные для примерно 1500 иероглифов.
+
+    8. Диалекты. Отсылка к базе данных по китайским диалектным чтениям Уильяма Вана и Цинь-Чуань Чэна.
+
+    9. Глосса из Шовэня. Цитаты из Шовэня, пока приведены только для небольшого числа иероглифов.
+
+    10. Перевод. Краткий английский перевод, в основном взятый из словаря Шюсслера (Schuessler 1987).
+
+    11. Комментарии. Различные соображения.
+
+    12. Этимологические заметки. Краткие этимологические заметки, частично (но не всегда) пересекающиеся с содержимым следующего поля.
+
+    13. Синотибетский. Отсылка к синотибетской этимологической базе данных.
+
+    14. Номер в GSR. Номер в "Grammata Serica Recensa" Карлгрена.
+
+
+ 
+DBINFO END
+DBINFO START 1
+ A database of Old Chinese reconstructions. It was started in 1991 and is gradually growing since that time, although at a rather slow pace. Right now it contains more or less sufficient information for about 4.000 entries.
+
+    Database structure. 
+
+    1. Character. Contains characters in Big5 encoding. Note that they are  displayed either as pictures or as font symbols, if you choose the necessary  control option (Graphics - as fonts) and if Chinese fonts are installed in  your browser. 
+   If you have some Chinese input system installed on your computer, you can also search for characters - but do not forget to set the "Graphics" option  to "Fonts". 
+
+    2. Fanqie. Contains the fanqie spellings from Guangyun. Rather loosely filled yet.
+
+    3. Modern (Beijing) reading. Provided for most characters.
+
+    4. Middle Chinese reading. Middle Chinese (Qieyun) reading in my reconstruction (Starostin 1989).
+
+    5. Old Chinese reading. Old Chinese (Early Zhou) reading in my reconstruction (Starostin 1989).
+
+    6. Japanese reading. Japanese (On and Kun) readings, still absent for most characters.
+
+    7. Vietnamese reading. Sino-Vietnamese readings, provided for about 1500 characters.
+
+    8. Dialects. A link to the database of Chinese dialectal readings by William Wang and Chin-Chuan Cheng.
+
+    9. Shuowen gloss. Quotations from Shuowen, still absent for most characters.
+
+    10. Translation. English translations, given very concisely, mostly taken from Schuessler's dictionary (Schuessler 1987).
+
+    11. Comments. Various considerations.
+
+    12. Etymological notes. Brief etymological notes, partially (but not always)  overlapping with the next field.
+
+    13. Sino-Tibetan. A link to the Sino-Tibetan etymological database.
+
+    14. Number in GSR. Number in Karlgren's "Grammata Serica Recensa".
+
+ 
+DBINFO END
+field_list = OCHN-JAP,VIET-STIBET
+field_alias[OCHN] = Old Chinese
+field_alias[MCHN] = Middle Chinese

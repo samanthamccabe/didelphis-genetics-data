@@ -1,0 +1,24 @@
+AliasSet = 1
+proto = \data\cauc\cezet.dbf
+field_alias[NUMBER] = \1:Number\2:Номер
+field_alias[WORD] = \1:Word\2:Слово
+field_alias[CEZ] = \1:Tsezi\2:Цезский
+field_alias[CEZNUM] = \1:Tsezi->Cezet\2:Цезский->Cezet
+field_alias[GIN] = \1:Ginukh\2:Гинухский
+field_alias[GINNUM] = \1:Ginukh->Cezet\2:Гинухский->Cezet
+field_alias[KHV] = \1:Khvarshi\2:Хваршинский
+field_alias[KHVNUM] = \1:Khvarshi->Cezet\2:Хваршинский->Cezet
+field_alias[INH] = \1:Inkhokvari\2:Инхокваринский
+field_alias[INHNUM] = \1:Inkhokvari->Cezet\2:Инхокваринский->Cezet
+field_alias[BZT] = \1:Bezhta\2:Бежтинский
+field_alias[BZTNUM] = \1:Bezhta->Cezet\2:Бежтинский->Cezet
+field_alias[GNZ] = \1:Gunzib\2:Гунзибский
+field_alias[GNZNUM] = \1:Gunzib->Cezet\2:Гунзибский->Cezet
+DBINFO START 1
+The Tsezian 100 wordlist. Compiled by S. Starostin.
+DBINFO END
+DBINFO START 2
+Цезский 100-словный список. Составлен С. Старостиным.
+DBINFO END
+ 
+field_list = NUMBER-GNZNUM

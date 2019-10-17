@@ -1,0 +1,29 @@
+field_alias[NUMBER] = \1:Number\2:Номер
+AliasSet = 1
+proto = \data\cauc\lezget.dbf
+field_alias[WORD] = \1:Word\2:Слово
+field_alias[LZG] = \1:Lezghian\2:Лезгинский
+field_alias[LZGNUM] = \1:Lezghian->Lezget\2:Лезгинский->Lezget
+field_alias[TAB] = \1:Tabasaran\2:Табасаранский
+field_alias[TABNUM] = \1:Tabasaran->Lezget\2:Табасаранский->Lezget
+field_alias[AGU] = \1:Agul\2:Агульский
+field_alias[AGUNUM] = \1:Agul->Lezget\2:Агульский->Lezget
+field_alias[RUT] = \1:Rutul\2:Рутульский
+field_alias[RUTNUM] = \1:Rutul->Lezget\2:Рутульский->Lezget
+field_alias[CAK] = \1:Tsakhur\2:Цахурский
+field_alias[CAKNUM] = \1:Tsakhur->Lezget\2:Цахурский->Lezget
+field_alias[KRZ] = \1:Kryz\2:Крызский
+field_alias[KRZNUM] = \1:Kryz->Lezget\2:Крызский->Lezget
+field_alias[BUD] = \1:Budukh\2:Будухский
+field_alias[BUDNUM] = \1:Budukh->Lezget\2:Будухский->Lezget
+field_alias[ARC] = \1:Archi\2:Арчинский
+field_alias[ARCNUM] = \1:Archi->Lezget\2:Арчинский->Lezget
+field_alias[UDI] = \1:Udi\2:Удинский
+field_alias[UDINUM] = \1:Udi->Lezget\2:Удинский->Lezget
+DBINFO START 1
+	The Lezghian 100wordlist. Compiled by S. Starostin.
+DBINFO END
+DBINFO START 2
+	Лезгинский 100словный список. Составлен С. Старостиным.
+DBINFO END
+field_list = NUMBER-UDINUM
