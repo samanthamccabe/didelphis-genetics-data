@@ -1,0 +1,17 @@
+{
+  "destinationPath": "output",
+  "transformations": [],
+  "files": [
+    {
+      "type": "tsv",
+      "path": "data/Orokolo-Toaripi.tsv",
+      "displayNames": {
+        "Toaripi": "Toaripi", 
+        "Orokolo": "Orokolo"
+      },
+      "keys": [
+        ["Toaripi","Orokolo"]
+      ]
+    }
+  ]
+}

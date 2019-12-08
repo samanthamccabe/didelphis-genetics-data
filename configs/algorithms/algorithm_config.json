@@ -1,7 +1,7 @@
 {
   "modelPath": "model/AT_extended_x.model",
   "optimization": "MIN",
-  "alignmentMode": "LOCAL",
+  "alignmentMode": "GLOBAL",
   "gapSymbol": "░",
   "comparatorConfig": {
     "type": "sparse",

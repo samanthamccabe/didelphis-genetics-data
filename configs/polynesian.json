@@ -1,0 +1,22 @@
+{
+  "destinationPath": "output",
+  "transformations": [
+    [":","ː"],
+    ["-",""]
+  ],
+  "files": [
+    {
+      "type": "tsv",
+      "path": "data/Polynesian.tsv",
+      "groupName": "Polynesian",
+      "displayNames": {
+        "Māori": "Māori",
+        "Tongan": "Tongan",
+        "Samoan": "Samoan",
+        "Rarotongan": "Rarotongan",
+        "Hawai'ian": "Hawai'ian"
+      },
+      "keys": []
+    }
+  ]
+}

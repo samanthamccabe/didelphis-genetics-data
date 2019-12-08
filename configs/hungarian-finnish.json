@@ -1,0 +1,23 @@
+{
+  "destinationPath": "output",
+  "transformations": [
+    [":", "ː"],
+    ["-", ""]
+  ],
+  "files": [
+    {
+      "type": "tsv",
+      "path": "data/Finno-Ugric.tsv",
+      "displayNames": {
+        "Hungarian": "Hungarian",
+        "Finnish":   "Finnish",
+        "Udmurt":    "Udmurt"
+      },
+      "keys": [
+        [ "Finnish",   "Udmurt"  ],
+        [ "Hungarian", "Finnish" ],
+        [ "Hungarian", "Udmurt"  ]
+      ]
+    }
+  ]
+}

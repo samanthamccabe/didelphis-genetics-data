@@ -1,0 +1,121 @@
+{
+  "destinationPath": "output",
+  "transformations": [
+    ["\\\\[iI]",""],
+//    ["[–?~+=-]", ""],
+    ["\\d+", ""],
+    ["Ø", ""],
+    ["\\s+[()\\[\\]\\{\\}<>].*", ""],
+    ["[()\\[\\]\\{\\}<>]", ""],
+    ["[,.;/'*].*", ""],
+    ["\\s+", ""],
+
+    ["L", "l"],
+    ["S", "s"],
+    ["A", "a"],
+
+    [ "aˊ",  "á" ],
+    [ "ǝˊ",  "ə́" ],
+    [ "ǝ",   "ə" ],
+    [ "eˊ",  "é" ],
+    [ "uˊ",  "ú" ],
+    [ "iˊ",  "í" ],
+    [ "oˊ",  "ó" ],
+
+    [ "I",   "ˁ"],
+
+    ["(ˊ[\u0300-\u036F]+)","$1ˊ"],
+    ["ˊ","ʲ"],
+
+    [ "ṗ|ṗ",   "pˀ"   ],
+    [ "č̣|č̣|č̣̌", "tʃˀ"  ],
+    [ "ṭ",     "tˀ"   ],
+    [ "ḳ|ḳ",   "kˀ"   ],
+    [ "q̇",     "qˀ"   ],
+    [ "ṣ",     "sˀ"   ],
+    [ "f̣",     "fˀ"   ],
+    [ ":",     "ː"    ],
+
+    [ "š|š|š̌|š̌", "ʃ"  ],
+    [ "č|č|č̌|č̌", "tʃ" ],
+    [ "ž|ž|ž̌|ž̌", "ʒ"  ],
+    [ "ǯ|ǯ|ǯ̌|ǯ̌", "dʒ" ],
+
+    [ "c̣ˊ̌",    "tʃˀʲ"],
+    [ "c̣",     "tsˀ" ],
+    [ "c",     "ts"  ],
+
+    [ "ƛ̣",     "tɬˀ" ],
+    [ "ƛ",     "tɬ"  ],
+    [ "λ",     "ɬ"   ],
+
+    ["",""]
+],
+  "files": [
+    {
+      "type": "csv",
+      "path": "starling exports/north caucasian/full join.csv",
+      "groupName": "NEC",
+      "exclusions": [
+        "comments.*|.*meaning|proto.*|.*root|.*id"
+      ],
+      "displayNames": {
+        // "primary id": "primary id",
+        // "caucet meaning": "caucet meaning",
+        // "avar andi meaning": "avar andi meaning",
+        // "proto avar andi": "proto avar andi",
+        "avar": "avar",
+        "chadakolob": "chadakolob",
+        "andi": "andi",
+        "akhvakh": "akhvakh",
+        "chamalal": "chamalal",
+        "tindi": "tindi",
+        "karata": "karata",
+        "botlikh": "botlikh",
+        "bagvalal": "bagvalal",
+        "godoberi": "godoberi",
+        // "comments (avar andi)": "comments (avar andi)",
+        // "tsezic meaning": "tsezic meaning",
+        // "proto-tsez": "proto-tsez",
+        "tsez": "tsez",
+        "hinukh": "hinukh",
+        "khwarshi": "khwarshi",
+        "inkhokvari": "inkhokvari",
+        "bezhta": "bezhta",
+        "hunzib": "hunzib",
+        // "comments (tsezic)": "comments (tsezic)",
+        // "dargwa meaning": "dargwa meaning",
+        // "proto dargwa": "proto dargwa",
+        "dargwa (akusha)": "dargwa (akusha)",
+        "dargwa (chirahg)": "dargwa (chirahg)",
+        // "comments (dargwa)": "comments (dargwa)",
+        // "khinalug root": "khinalug root",
+        // "khinalug meaning": "khinalug meaning",
+        "khinalug": "khinalug",
+        // "comments (khinalug)": "comments (khinalug)",
+        // "lak root": "lak root",
+        // "lak meaning": "lak meaning",
+        "lak": "lak",
+        // "proto lezgi": "proto lezgi",
+        // "lezgi meaning": "lezgi meaning",
+        "lezgi": "lezgi",
+        "tabasaran": "tabasaran",
+        "aghul": "aghul",
+        "rutul": "rutul",
+        "tsakhur": "tsakhur",
+        "kryts": "kryts",
+        "budukh": "budukh",
+        "archi": "archi",
+        "udi": "udi",
+        // "comments (lak)": "comments (lak)",
+        // "proto nakh": "proto nakh",
+        // "nakh meaning": "nakh meaning",
+        "chechen": "chechen",
+        "ingush": "ingush",
+        "bats": "bats"
+        // "comments (nakh)": "comments (nakh)"
+    },
+    "keys": []
+}
+]
+}

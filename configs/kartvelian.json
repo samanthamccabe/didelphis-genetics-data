@@ -1,9 +1,9 @@
 {
-  "destinationPath": "output/kartvelian/",
+  "destinationPath": "output/",
   "transformations": [
     ["Old Georg\\. ", ""],
     ["\\\\[iI]",""],
-    ["[–?~+=-]", ""],
+//    ["[–?~+=-]", ""],
     ["\\d+", ""],
     ["Ø", ""],
     ["\\s+[()\\[\\]\\{\\}<>].*", ""],
@@ -52,20 +52,14 @@
     {
       "type": "dsv",
       "path": "starling exports/kartvelian/kartet.dsv",
+      "groupName": "Kartvelian",
       "displayNames":{
         "GRU": "Georgian",
         "MEG": "Megrelian",
         "SVA": "Svan",
         "LAZ": "Laz"
       },
-      "keys": [
-        ["GRU", "MEG"],
-        ["GRU", "SVA"],
-        ["GRU", "LAZ"],
-        ["MEG", "SVA"],
-        ["MEG", "LAZ"],
-        ["SVA", "LAZ"]
-      ]
+      "keys": []
     }
   ]
 }
