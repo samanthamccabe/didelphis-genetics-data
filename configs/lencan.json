@@ -1,12 +1,11 @@
 {
   "destinationPath": "output",
-  "transformations": [
-    ["-",""]
-  ],
+  "transformations": [],
   "files": [
     {
-      "type": "tsv",
-      "path": "data/Lencan.tsv",
+      "type":         "tsv",
+      "path":         "data/Lencan.tsv",
+      "groupName":    "Lencan",
       "displayNames": {
         "Lenca":    "Honduran Lenca", 
         "Chilanga": "Chilanga"

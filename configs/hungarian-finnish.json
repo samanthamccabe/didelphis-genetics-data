@@ -4,20 +4,17 @@
     [":", "ː"],
     ["-", ""]
   ],
-  "files": [
+  "files":           [
     {
-      "type": "tsv",
-      "path": "data/Finno-Ugric.tsv",
+      "type":         "tsv",
+      "path":         "data/Finno-Ugric.tsv",
+      "groupName":    "Hungarian-Finnish",
+      "keys":         [],
       "displayNames": {
         "Hungarian": "Hungarian",
         "Finnish":   "Finnish",
         "Udmurt":    "Udmurt"
-      },
-      "keys": [
-        [ "Finnish",   "Udmurt"  ],
-        [ "Hungarian", "Finnish" ],
-        [ "Hungarian", "Udmurt"  ]
-      ]
+      }
     }
   ]
 }

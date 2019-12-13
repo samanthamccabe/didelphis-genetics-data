@@ -1,14 +1,15 @@
 {
   "destinationPath": "output",
   "transformations": [
-    ["\\\\[iI]",""],
-    ["[–?~+=-]", ""],
+    ["\\\\[iI]", ""],
+    ["-+", "-"],
+    ["[–?~+]", ""],
     ["\\d+", ""],
     ["Ø", ""],
-    ["\\s+[()\\[\\]\\{\\}<>].*", ""],
+    ["[()\\[\\]\\{\\}<>].*", ""],
     ["[()\\[\\]\\{\\}<>]", ""],
     ["[,.;/'*].*", ""],
-    ["\\s+", ""],
+    ["\\s+$", ""],
 
     ["L", "l"],
     ["S", "s"],
@@ -36,8 +37,10 @@
     [ "f̣",     "fˀ"   ],
     [ ":",     "ː"    ],
 
+    ["sˇ","ʃ"],
     [ "š|š|š̌|š̌", "ʃ"  ],
     [ "č|č|č̌|č̌", "tʃ" ],
+    [ "č̌|č̌|č̌̌|č̌̌", "tʃ" ],
     [ "ž|ž|ž̌|ž̌", "ʒ"  ],
     [ "ǯ|ǯ|ǯ̌|ǯ̌", "dʒ" ],
 
@@ -55,18 +58,15 @@
     {
       "type": "dsv",
       "path": "starling exports/north caucasian/abadet.dsv",
-      "keys": [
-        ["ABK", "ABA"],
-        ["ABK", "ADG"],
-        ["ABK", "KAB"],
-        ["ABK", "UBK"],
-        ["ABA", "ADG"],
-        ["ABA", "KAB"],
-        ["ABA", "UBK"],
-        ["ADG", "KAB"],
-        ["ADG", "UBK"],
-        ["KAB", "UBK"]
-      ]
+      "groupName": "Abkhaz-Abaza",
+      "displayNames": {
+        "ABK": "Abkhaz",
+        "ABA": "Abaza",
+        "ADG": "Adyghe",
+        "KAB": "Kabardian",
+        "UBK": "Ubykh"
+      },
+      "keys": []
     }
   ]
 }

@@ -2,7 +2,7 @@
   "destinationPath": "output",
   "transformations": [
     ["\\\\[iI]",""],
-    ["[–?~=-]", ""],
+    ["[–?~]", ""],
     ["\\s.*$", ""],
     ["\\d+", ""],
     ["Ø", ""],
@@ -21,7 +21,7 @@
     ["R", "r"],
     ["O", "o"],
     ["S", "s"],
-    
+
     ["ü", "y"],
     ["ö", "ø"],
     ["ä", "æ"],
@@ -37,10 +37,11 @@
   ],
   "files": [
     {
-      "type": "dsv",
-      "path": "starling exports/altaic/turcet.dsv",
-      "groupName": "Turkic",
-      "displayNames":{
+      "type":         "dsv",
+      "path":         "starling exports/altaic/turcet.dsv",
+      "groupName":    "Turkic",
+      "keys":         [],
+      "displayNames": {
         "ATU":  "Old Turkic",
         "KRH":  "Karakhanid",
         "TRK":  "Turkish",
@@ -70,8 +71,7 @@
         "KLPX": "Karakalpak",
         "SAL":  "Salar",
         "QUM":  "Kumyk"
-      },
-      "keys": [["KLPX","KAZ"]]
+      }
     }
   ]
 }

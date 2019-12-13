@@ -3,14 +3,15 @@
   "transformations": [],
   "files": [
     {
-      "type": "tsv",
-      "path": "data/Orokolo-Toaripi.tsv",
+      "type":         "tsv",
+      "path":         "data/Orokolo-Toaripi.tsv",
+      "groupName":    "Orokolo-Toaripi",
       "displayNames": {
-        "Toaripi": "Toaripi", 
+        "Toaripi": "Toaripi",
         "Orokolo": "Orokolo"
       },
       "keys": [
-        ["Toaripi","Orokolo"]
+        [ "Toaripi", "Orokolo" ]
       ]
     }
   ]

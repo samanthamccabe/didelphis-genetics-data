@@ -2,7 +2,7 @@
   "destinationPath": "output/pie/",
   "transformations": [
     ["\\\\[iI]",""],
-    ["[–?~+=-]", ""],
+    ["[–?~+]", ""],
     ["\\d+", ""],
     ["Ø", ""],
     ["\\s+[()\\[\\]\\{\\}<>].*", ""],
@@ -50,6 +50,7 @@
     {
       "type": "dsv",
       "path": "starling exports/indo-european/piet.dsv",
+      "groupName": "Indo-European",
       "displayNames":{
         "HITT":  "Hittite",
         "IND":   "Sanskrit",
@@ -66,14 +67,7 @@
         "ALB":   "Albanian",
         "TOKH":  "Tokharian"
       },
-      "keys": [
-        ["HITT",  "IND"],
-        ["AVEST", "IND"],
-        ["HITT",  "ARM"],
-        ["ARM",   "ALB"],
-        ["ALB",   "TOKH"],
-        ["TOKH",  "HITT"]
-      ]
+      "keys": []
     }
   ]
 }

@@ -1,30 +1,31 @@
 {
-  "modelPath": "model/AT_extended_x.model",
-  "optimization": "MIN",
-  "alignmentMode": "GLOBAL",
-  "gapSymbol": "░",
+  "modelPath":        "model/AT_extended_x.model",
+  "optimization":     "MIN",
+  "alignmentMode":    "GLOBAL",
+  "gapSymbol":        "░",
   "comparatorConfig": {
-    "type": "sparse",
+    "type":       "sparse",
     "parameters": [
-      [ 0.83791, 1.00000, 1.00000, 0.46407, 0.56497, 0.12395, 1.00000, 0.88271, 0.30000, 1.00000, 0.54853, 0.30000, 0.84998, 0.25369, 0.30000, 0.47868, 0.27026, 0.27226, 0.30000, 0.83634, 0.47455, 0.59773, 0.30000],
+      [
+        0.838, 1.000, 1.000, 0.464, 0.564, 0.123, 1.000, 0.882, 0.300, 1.000,
+        0.548, 0.300, 0.849, 0.253, 0.300, 0.478, 0.270, 0.272, 0.300, 0.836,
+        0.474, 0.597, 0.300
+      ],
       {
-        "con-son": -0.09465,
-        "con-cnt":  0.53488,
-        "son-cnt": -0.33352,
-        "lat-nas": -0.46151,
-        "vce-son":  0.35032,
-        "lab-rnd": -0.18991,
-        "eje-rel": -2.67279,
-        "con-eje": -3.00000,
-        "con-rel":  2.83224
+        "con-son": -0.094,
+        "con-cnt":  0.534,
+        "son-cnt": -0.333,
+        "lat-nas": -0.461,
+        "vce-son":  0.350,
+        "lab-rnd": -0.189,
+        "eje-rel": -2.672,
+        "con-eje": -3.000,
+        "con-rel":  2.832
       }
     ]
   },
-  "penaltyConfig": {
-    "type": "convex",
-    "parameters": [
-      0.0,
-      0.0
-    ]
+  "penaltyConfig":    {
+    "type":       "convex",
+    "parameters": [ 0.0, 0.0 ]
   }
 }

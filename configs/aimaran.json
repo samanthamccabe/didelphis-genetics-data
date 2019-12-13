@@ -1,20 +1,19 @@
 {
   "destinationPath": "output",
   "transformations": [
-    ["-",""],
+    ["-", ""],
     ["(\\(.*?\\))", ""]
   ],
-  "files": [
+  "files":           [
     {
-      "type": "tsv",
-      "path": "data/Aimaran.tsv",
+      "type":         "tsv",
+      "path":         "data/Aimaran.tsv",
+      "groupName":    "Aimaran",
       "displayNames": {
-        "Southern":    "Southern Aimaran", 
-        "Central": "Central Aimaran"
+        "Southern": "Southern Aimaran",
+        "Central":  "Central Aimaran"
       },
-      "keys": [
-        [ "Southern", "Central" ]
-      ]
+      "keys":         []
     }
   ]
 }
