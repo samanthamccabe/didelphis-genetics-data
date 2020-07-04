@@ -146,12 +146,13 @@ h	+	-	+	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 
 ░	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 #	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+
 MODIFIERS
 %	con	son	cnt	eje	rel	lat	nas	lab	rnd	cor	ant	grv	dor	frn	bck	hgt	low	atr	vce	crk	brt	dst	lng
 ◌ː																							+
-◌ʲ																							
-◌ʸ									+														
-◌ʷ									+														
+◌ʲ														+		+							
+◌ʸ									+					+		+							
+◌ʷ									+						-	-							
 ◌ʰ																			-		+		
 ◌ʱ																			+		+		
 ◌ˠ															+	+							

@@ -1,0 +1,37 @@
+%FEATURE_MODEL
+
+% Feature Model v1.0
+
+IMPORT "AT_extended_x.spec"
+
+FEATURES
+consonantal   con    binary    %  0
+sonorant      son    binary    %  1
+continuant    cnt    binary    %  2
+ejective      eje    binary    %  3
+
+ALIASES
+[+vot] = [+breathy]
+[-vot] = [-breathy]
+
+CONSTRAINTS
+% [+nas] and [+lat] cannot co-occur
+[+nasal]   > [-lateral]
+[+lateral] > [-nasal]
+
+% Only obstruents (stops?) can be ejectives
+[+ejective] > [+consonantal, -sonorant, -continuant, -voice]
+
+SYMBOLS
+%	con	son	cnt	eje	rel	lat	nas	lab	rnd	cor	ant	grv	dor	frn	bck	hgt	low	atr	vce	crk	brt	dst	lng
+p̪	+	-	-	-	-	-	-	+	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+b̪	+	-	-	-	-	-	-	+	-	-	-	-	-	-	-	-	-	-	+	-	-	-	-
+p	+	-	-	-	-	-	-	+	-	-	-	-	-	-	-	-	-	-	-	-	-	+	-
+
+MODIFIERS
+%	con	son	cnt	eje	rel	lat	nas	lab	rnd	cor	ant	grv	dor	frn	bck	hgt	low	atr	vce	crk	brt	dst	lng
+◌ː																							+
+◌ʲ														+		+							
+◌ʸ									+					+		+							
+◌ʷ									+						-	-							
+◌ʰ																			-		+		1
